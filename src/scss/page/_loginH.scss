@@ -1,0 +1,118 @@
+@use '../abstracts' as a;
+
+.logIn_signUp_header{
+    box-sizing: border-box;
+    margin:auto 0;
+    padding-top:15rem;
+    padding-bottom:8rem;
+    background-color:a.$background-color4;
+}
+
+.logIn_signUp_header_box{
+    box-sizing: border-box;
+    width:95%;
+    margin:auto;
+    h1{
+        @include a.fjFontStyle2;
+        font-weight:600;
+        font-size:3rem;
+    }
+}
+
+.logIn_signUp{
+    margin:auto 0;
+    box-sizing: border-box;
+    background-color: a.$background-color12;
+}
+
+.logIn_signUp_box{
+    box-sizing: border-box;
+    margin:auto;
+    width:95%;
+    padding-top:5rem;
+    padding-bottom:5rem;
+    justify-content: center;
+}
+
+.logIn_signUp_box_box{
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    justify-content: center;
+    margin:auto;
+    width:90%;
+    padding:5rem;
+    width:fit-content;
+    background-color:a.$background-color4;
+}
+
+.logIn_signUp_box_box_top{
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    text-align:center;
+    h4{
+        @include a.fjFontStyle2;
+        font-weight:600;
+        font-size:1.2rem;
+    }
+    ul{
+        display:flex;
+        flex-direction: row;
+        gap:1rem;
+        align-items:center;
+        list-style:none;
+        margin:0 auto;
+        justify-content: space-between;
+    }
+}
+
+.logIn_signUp_box_box_bottom{
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    form{
+        display:flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        gap:1rem;
+        label{
+            @include a.osFontStyle2;
+            font-weight:550;
+            text-align:center;
+            padding-bottom:.5rem;
+        }
+        input{
+            width:15rem;
+            margin:0 auto;
+            padding:.3rem;
+            @include a.media(phone){
+                width:95%;
+            }
+        }
+    }
+}
+
+.logIn_signUp_go{
+    margin:auto 0;
+    justify-content: center;
+    a{
+        font-weight:500;
+        padding:1.5rem;
+        border:0.01rem solid a.$fontColor;
+        border-radius:6rem;
+    }
+}
+
+.logIn_signUp_go_create{
+    margin:0 auto;
+    width:fit-content;
+    a{
+        @include a.osFontStyle2;
+        font-weight:550;
+        font-size:.8rem;
+    }
+}

@@ -1,500 +1,845 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Horizons</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Horizons</title>
-    <link rel="stylesheet" href="../scss/main.scss">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fjalla+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<head>
+  <title>Horizons</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../scss/main.scss">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
-  <body>
-    
-    <nav>
-        <div class="logoName"><h3>HORIZONS</h3></div>
-            <div class="openMenu"><i class="fa-solid fa-bars fa-xl"></i></div>
-        <menu class="MainMenu">
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">COLLECTIONS</a></li>
-            <li><a href="">CONTACT</a></li>
-            <li><a href="">GALLEY</a></li>
-            <li><a href="">CREATE</a></li>
-            <li><a href="">WALLET</a></li>
-            <div class="closeMenu"><i class="fa-solid fa-x fa-xl"></i></div>
-        </menu>
-    </nav>
-    
-    <header>
-      <div class="heroSection_box">
+<body>
+
+  <nav>
+    <div class="nav_horizons">
+      <h4><a href="index.html">HORIZONS</a></h4>
+    </div>
+    <ul class="nav_links" id="menuList">
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="blog.html">MEDIA</a></li>
+      <li><a href="collectionPage.html">COLLECTION</a></li>
+      <li><a href="mint.html">MINT</a></li>
+      <li><a href="connectWallets.html">WALLET</a></li>
+      <li><a href="profile.html">PROFILE</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <div class="nav_links_close">
+      <i class="fa-solid fa-bars fa-lg" style="color: #74C0FC;" 
+      onclick="menuToggle()" ></i>
+    </div>
+  </nav>
+  
+  <header class="heroSection">
+    <div class="heroSection_box">
+      <div class="heroSection_box_left">
+        <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="heroSectionImage">
+      </div>
+      <div class="heroSection_box_right">
+        <h3>Ernesto Presents</h3>
         <h1>HORIZONS</h1>
+        <h4>NFT MARKETPLACE</h4>
         <div class="heroSection_box_buttons">
-          <button><a href="">Mint</a></button>
-          <button><a href="">Buy</a></button>
+          <button><a href="#">Mint</a></button>
+          <button><a href="#">Buy</a></button>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <section class="welcome">
-      <div class="welcome_box">
-          <div class="welcome_box_top_left">
-              <h2>WELCOME TO</h2>
-              <h2>HORIZONS</h2>
-              <p>A place where art and technology coexist</p>
-              <button><a href="">Learn More</a></button>
-          </div>
-          <div class="welcome_box_top_right">
-             <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" class="" height="500" width="700">
-          </div>
+  <section class="welcome">
+    <div class="welcome_box">
+      <div class="welcome_box_left">
+        <h3>WELCOME TO</h3>
+        <h2>HORIZONS</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis modi reprehenderit ipsam velit vero inventore mollitia sit magni, eligendi, a tempora adipisci numquam maxime nemo eos aliquid perspiciatis? Qui, quam.</p>
+        <a href="#">Learn More</a>
       </div>
-    </section>
-
-  <section class="about">
-    <div class="about_box">
-      <div class="about_box_overview">
-        <h3>Creativity.Innovation.Compassion</h3>
-        <h2>Horizons Marketplace Overview</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, labore, omnis sint et quia ratione culpa similique officiis inventore nihil esse quibusdam expedita mollitia, totam placeat delectus! Laborum, dolorem illum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam dignissimos, expedita culpa architecto officiis quo exercitationem laboriosam numquam, necessitatibus, similique incidunt consectetur omnis tempore. Inventore quos facere dolores quod nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis odit nobis atque ratione deserunt, ipsum libero, doloribus sequi optio possimus aliquid! Mollitia rerum at incidunt eveniet autem, quas sint quasi!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus id amet eius impedit, et quis molestias, sapiente earum nam laboriosam voluptatum maiores dignissimos, officia ipsa quisquam nisi quas illo! Nostrum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi aliquam dolorum autem suscipit ratione voluptatum ad deserunt eligendi, veniam maiores cupiditate eveniet laudantium quas pariatur minima sit natus sunt doloremque.</p>
-      <button><a href="">Learn More</a></button>
-      </div>  
+      <div class="welcome_box_right">
+        <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="welcomeBoxImage">
+      </div>
     </div>
   </section>
 
   <section class="getStarted">
     <div class="getStarted_box">
-        <div class="startedLeft">
-            <h2>Get Started</h2>
-            <p>Here at Horizons we try to simplify and condense blockchain technology and NFTs into something that is accessible and understandable to enthusiasts and regulars alike. Here is a small guide to help you out!</p>
-            <button><a href="">Learn More</a></button>
+
+      <div class="getStarted_box_left">
+        <div class="getStarted_box_left_box">
+          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="getStartedImage" class="">
         </div>
-        <div class="startedRight">
-          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" class="" height="500" width="700">
+      </div>
+
+      <div class="getStarted_box_right">
+        <h3>GET STARTED</h3>
+        <h2>CREATE & MINT</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente excepturi, nemo tenetur, iusto consectetur quasi culpa commodi, consequatur nulla delectus harum iste illo nobis? Corrupti tempora minima ipsum nostrum doloremque.</p>
+        <a href="mint.html">MINT</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="browse">
+    <div class="browse_box">
+
+      <div class="browse_box_top">
+        <h3>BROWSE BY CATEGORIES</h3>
+      </div>
+
+      <div class="browse_swiper swiper mySwiper">
+        <div class="browse_swiper_wrapper swiper-wrapper">
+
+          <div class="browse_swiper_slider swiper-slide">
+            <div class="browse_swiper_slider_image">
+              <img src="https://images4.alphacoders.com/130/1303494.jpeg" 
+              alt="browseImageArt" class="">
+            </div>
+            <div class="browse_swiper_slider_description">
+              <h4>ART</h4>
+            </div>
+          </div>
+
+          <div class="browse_swiper_slider swiper-slide">
+            <div class="browse_swiper_slider_image">
+              <img src="https://images4.alphacoders.com/130/1303494.jpeg" 
+              alt="browseImageArt" class="">
+            </div>
+            <div class="browse_swiper_slider_description">
+              <h4>GAMING</h4>
+            </div>
+          </div>
+
+          <div class="browse_swiper_slider swiper-slide">
+            <div class="browse_swiper_slider_image">
+              <img src="https://images4.alphacoders.com/130/1303494.jpeg" 
+              alt="browseImageArt" class="">
+            </div>
+            <div class="browse_swiper_slider_description">
+              <h4>MUSIC</h4>
+            </div>
+          </div>
+
+          <div class="browse_swiper_slider swiper-slide">
+            <div class="browse_swiper_slider_image">
+              <img src="https://images4.alphacoders.com/130/1303494.jpeg" 
+              alt="browseImageArt" class="">
+            </div>
+            <div class="browse_swiper_slider_description">
+              <h4>PFPS</h4>
+            </div>
+          </div>
+
+          <div class="browse_swiper_slider swiper-slide">
+            <div class="browse_swiper_slider_image">
+              <img src="https://images4.alphacoders.com/130/1303494.jpeg" 
+              alt="browseImageArt" class="">
+            </div>
+            <div class="browse_swiper_slider_description">
+              <h4>DOMAIN</h4>
+            </div>
+          </div>
+
+          <div class="browse_swiper_slider swiper-slide">
+            <div class="browse_swiper_slider_image">
+              <img src="https://images4.alphacoders.com/130/1303494.jpeg" 
+              alt="browseImageArt" class="">
+            </div>
+            <div class="browse_swiper_slider_description">
+              <h4>PHOTOGRAPHY</h4>
+            </div>
+          </div>
+
+        </div>
+        <div class="browse_swiper_pagination swiper-pagination"></div>
       </div>
     </div>
   </section>
 
-<section class="categories">
-  <div class="categories_box">
-      <div class="browseBox">
-          <i class="fa-solid fa-paintbrush fa-2xl" style="color: #010A13;"></i>
-          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="browseBoxImg" class="" height="200" width="100">
-          <h4>Art</h4>
-          <p>Delve into the world of NFT art and discover some creative and inspiring artists. From animation to avant garde, we got you covered.</p>
-      </div>
-      <div class="browseBox">
-          <i class="fa-solid fa-music fa-2xl" style="color: #010A13;"></i>
-          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="browseBoxImg" class="" height="200" width="100">
-          <h4>Music</h4>
-          <p>Feeling groovy? Explore some music NFTs to satisy your music taste and creativity!</p>
-      </div>
-      <div class="browseBox">
-          <i class="fa-solid fa-image-portrait fa-2xl" style="color: #010A13;"></i>
-          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="browseBoxImg" height="200" width="100">
-          <h4>PFPs</h4>
-          <p>WanT a digital identity thats yours and only yours? We value uniqueness and we have no shortage of PFP NFTs to give you that.</p>
-      </div>
-      <div class="browseBox">
-          <i class="fa-solid fa-gamepad fa-2xl" style="color:#010A13 ;"></i>
-          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="browseBoxImg" height="200" width="100">
-          <h4>Gaming</h4>
-          <p>With the ever growing and expanding video game industry, you can feel assured and confident we have a NFT gaming selection to keep you and your fingers on edge!</p>
-      </div>
-      <div class="browseBox">
-          <i class="fa-solid fa-id-card fa-2xl" style="color:#010A13 ;"></i>
-          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="browseBoxImg" height="200" width="100">
-          <h4>Membership</h4>
-          <p>Wanna feel a part of a club? Disocver some NFT memberships to gain your access to great communities and like minded people!</p>
-      </div>
-  </div>
-</section>
+  <section class="gallery">
+    <div class="gallery_box">
 
+      <div class="gallery_box_header">
+        <h2>GALLERY</h2>
+        <p>Image display from Horizons</p>
+      </div>
 
-  <section class="artist">
-    <div class="artist_header">
-        <h4>Discover and support some of our artists</h4>
-        <h2>Artists</h2>
-        <button><a href="">Learn More</a></button>
-    </div>
-<div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="">
-        <header>Jinx Silco</header>
-        <div class="artistBox_stats">
-            <p>Class: <span>Gold</span></p>
-            <p>Followers: <span>50k</span></p>
-        </div>
+      <div class="gallery_box_main_box">
+        <img src="https://i.pinimg.com/originals/45/df/82/45df82b13b747404087c04a64240893c.jpg" id="mainImage" 
+        alt="displayImage1" class="galleryImg1">
       </div>
-      <div class="swiper-slide">
-        <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="">
-        <header>Jinx Silco</header>
-        <div class="artistBox_stats">
-            <p>Class: <span>Gold</span></p>
-            <p>Followers: <span>50k</span></p>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="">
-        <header>Jinx Silco</header>
-        <div class="artistBox_stats">
-            <p>Class: <span>Gold</span></p>
-            <p>Followers: <span>50k</span></p>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="">
-        <header>Jinx Silco</header>
-        <div class="artistBox_stats">
-            <p>Class: <span>Gold</span></p>
-            <p>Followers: <span>50k</span></p>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="">
-        <header>Jinx Silco</header>
-        <div class="artistBox_stats">
-            <p>Class: <span>Gold</span></p>
-            <p>Followers: <span>50k</span></p>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="">
-        <header>Jinx Silco</header>
-        <div class="artistBox_stats">
-            <p>Class: <span>Gold</span></p>
-            <p>Followers: <span>50k</span></p>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="">
-        <header>Jinx Silco</header>
-        <div class="artistBox_stats">
-            <p>Class: <span>Gold</span></p>
-            <p>Followers: <span>50k</span></p>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="">
-        <header>Jinx Silco</header>
-        <div class="artistBox_stats">
-            <p>Class: <span>Gold</span></p>
-            <p>Followers: <span>50k</span></p>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="">
-        <header>Jinx Silco</header>
-        <div class="artistBox_stats">
-            <p>Class: <span>Gold</span></p>
-            <p>Followers: <span>50k</span></p>
-        </div>
-      </div>
-    </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
     
+    </div>
 
-  </div>
-</section>
+    <div class="gallery_box_swiper swiper mySwiper">
+      <div class="gallery_box_swiper_wrapper swiper-wrapper">
 
-
-    <section class="membership">
-      <div class="membership_box">
-        <div class="membership_box_left">
-          <div class="membership_box_left_top">
-            <h3>Join our community</h3>
-            <h2>And feel a part of the club</h2>
-            <button><a href="">Sign Up</a></button>
-          </div>
-        </div>
-        <div class="membership_box_right">
-          <div class="membership_box_right_box">
-            <div class="membership_box_right_box_top_image">
-              <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" class="">
-            </div>
-            <div class="membership_box_right_bottom">
-              <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" class="">
-              <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" class="">
-              <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" class="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-<section class="partners">
-      <div class="partners_box">
-        <div class="partners_box_left">
-          <h3>We are not</h3>
-          <h2>Alone.</h2>
-          <p>
-            Here at Horizons we understand the importance of building a
-            community and feeling like we belong. So this is why we pride
-            ourselves in promoting and acknowledging mental health and well
-            being, and the importance of loving yourself.
-          </p>
-
-          <div class="partners_box_left_links">
-            <a
-              href="https://www.nami.org/about-mental-illness/"
-              class="mentalLink1"
-              >Learn More about mental health</a
-            >
-
-            <a
-              href="https://www.nami.org/About-NAMI/Donate-to-NAMI/?gad_source=1&gclid=CjwKCAjwmYCzBhA6EiwAxFwfgCDEUiPPwYlhW4U3HdF4jA3lHvM1QiPlMWxarIoxoXsTpIqEyWATyhoCa1IQAvD_BwE"
-              class="mentalLink2"
-              >Donate</a
-            >
-          </div>
-
-          <div class="partners_box_left_worth">
-            <li>You</li>
-            <li>Are</li>
-            <li>Worth</li>
-            <li>Every</li>
-            <li>Single</li>
-            <li>Breath</li>
-          </div>
+        <div class="gallery_box_swiper_slider swiper-slide">
+          <img src="https://i.pinimg.com/originals/45/df/82/45df82b13b747404087c04a64240893c.jpg" alt="gallImage1" 
+          class="" id="gallImage1">
         </div>
 
-        <div class="partners_box_right">
-          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" class="" height="500" width="700">
+        <div class="gallery_box_swiper_slider swiper-slide">
+          <img src="https://static0.srcdn.com/wordpress/wp-content/uploads/2024/10/the-arcane-in-arcane-season-2-trailer.jpg" 
+          alt="gallImage2" class="" id="gallImage2">
+        </div>
+
+        <div class="gallery_box_swiper_slider swiper-slide">
+          <img src="https://preview.redd.it/no-spoilers-50-beautiful-4k-screenshots-from-the-s2-trailer-v0-69oet2utzzmd1.png?width=1080&crop=smart&auto=webp&s=3146e8f21f7da936e52c78d431fe4a833fd7d587" 
+          alt="gallImage3" class="" id="gallImage3">
+        </div>
+
+        <div class="gallery_box_swiper_slider swiper-slide">
+          <img src="https://miro.medium.com/v2/resize:fit:1400/1*4nvlwcExoQl1RkBQUrr8uw.png" 
+          alt="gallImage4" class="" id="gallImage4">
+        </div>
+
+        <div class="gallery_box_swiper_slider swiper-slide">
+          <img src="https://img.redbull.com/images/c_crop,w_3472,h_1736,x_453,y_0/c_auto,w_1200,h_600/f_auto,q_auto/redbullcom/2024/9/6/ug2lywrkpkqgdsmadiqq/jinx-arcane-season-2-lol" 
+          alt="gallImage5" class="" id="gallImage5">
         </div>
 
       </div>
-    </section>
 
-  
-    <section class="subscribe">
-      <div class="subscribe_box">
-        <div class="subscribe_box_left">
-          <h2>Never miss a drop</h2>
-          <p>
-            Want to ensure you are up to date with Horizons? Subscribe to our
-            newsletter to be the first to know about upcoming drops!
-          </p>
+      <div class="gallery_box_swiper_pagination swiper-pagination"></div>
 
-          <div class="subscribe_box_left_box">
-            <h5>H</h5>
-            <p>Get more updates</p>
-          </div>
-
-          <div class="subscribe_box_left_box">
-            <h5>H</h5>
-            <p>Get more art</p>
-          </div>
-
-          <div class="subscribe_box_left_box">
-            <h5>H</h5>
-            <p>Get more exploration</p>
-          </div>
-
-          <div class="subscribe_box_left_input">
-            <input type="email" placeholder="Enter your email" />
-          </div>
-        </div>
-
-        <div class="subscribe_box_right">
-          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="get update" height="500" width="700"/>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="featuredNews">
-
-      <div class="featuredNews_title">
-          <h4>Want to now whats going on? We got you covered.</h4>
-          <h2>Featured News</h2>
-          <button><a href="">Learn More</a></button>
-      </div>
-
-      <div class="featuredNews_swiper swiper mySwiper">
-        <div class="featuredNews_wrapper swiper-wrapper">
-
-        <article class="featuredBox swiper-slide">
-          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" height="200" width="400">
-              <h5>Article <span>|</span> April 13th,2024</h5>
-              <h4>Horizons new collection announcement</h4>
-              <p>
-                Ready yourselves with a brand new and exciting collaboration!
-              </p>
-          </article>
-
-        <article class="featuredBox swiper-slide">
-          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" height="200" width="400">
-              <h5>Article <span>|</span> April 13th,2024</h5>
-              <h4>Horizons new collection announcement</h4>
-              <p>
-                Ready yourselves with a brand new and exciting collaboration!
-              </p>
-          </article>
-
-        <article class="featuredBox swiper-slide">
-          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" height="200" width="400">
-              <h5>Article <span>|</span> April 13th,2024</h5>
-              <h4>Horizons new collection announcement</h4>
-              <p>
-                Ready yourselves with a brand new and exciting collaboration!
-              </p>
-          </article>
-
-        <article class="featuredBox swiper-slide">
-          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" height="200" width="400">
-              <h5>Article <span>|</span> April 13th,2024</h5>
-              <h4>Horizons new collection announcement</h4>
-              <p>
-                Ready yourselves with a brand new and exciting collaboration!
-              </p>
-        </article>
-
-        <article class="featuredBox swiper-slide">
-          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" height="200" width="400">
-              <h5>Article <span>|</span> April 13th,2024</h5>
-              <h4>Horizons new collection announcement</h4>
-              <p>
-                Ready yourselves with a brand new and exciting collaboration!
-              </p>
-        </article>
-
-        <article class="featuredBox swiper-slide">
-          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" height="200" width="400">
-              <h5>Article <span>|</span> April 13th,2024</h5>
-              <h4>Horizons new collection announcement</h4>
-              <p>
-                Ready yourselves with a brand new and exciting collaboration!
-              </p>
-          </article>
-
-        <article class="featuredBox swiper-slide">
-          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" height="200" width="400">
-              <h5>Article <span>|</span> April 13th,2024</h5>
-              <h4>Horizons new collection announcement</h4>
-              <p>
-                Ready yourselves with a brand new and exciting collaboration!
-              </p>
-          </article>
-
-        <article class="featuredBox swiper-slide">
-          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" height="200" width="400">
-              <h5>Article <span>|</span> April 13th,2024</h5>
-              <h4>Horizons new collection announcement</h4>
-              <p>
-                Ready yourselves with a brand new and exciting collaboration!
-              </p>
-          </article>
-
-        <article class="featuredBox swiper-slide">
-          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" height="200" width="400">
-              <h5>Article <span>|</span> April 13th,2024</h5>
-              <h4>Horizons new collection announcement</h4>
-              <p>
-                Ready yourselves with a brand new and exciting collaboration!
-              </p>
-        </article>
-      </div>
-      <div class="swiper-pagination"></div>
     </div>
   </section>
 
-  <footer>
-    <div class="footer_box">
-        <div class="footer_box_social">
-        <h3>HORIZONS</h3>
-        <p>
-        Explore intuitive technology and art built and created with
-        ingenuity and tenacity. Horizons offers users a world where both
-        technologically savvy and creative minded people a place to call
-        home
-        </p>
-    <div class="footer_social">
+  <section class="home_news">
+    <div class="home_news_box">
 
-        <a href="" class=""
-            ><i
-            class="fa-brands fa-instagram fa-2xl"
-            style="color: #b197fc"
-            ></i
-            ></a>
-
-        <a href="" class=""
-            ><i class="fa-brands fa-github fa-2xl" style="color: #520f70"></i
-            ></a>
-
-        <a href="" class=""
-            ><i class="fa-brands fa-discord fa-2xl" style="color: #adbc9a"></i
-            ></a>
-
-        <a href="" class=""
-            ><i class="fa-brands fa-reddit fa-2xl" style="color: #ec9e69"></i
-            ></a>
-
-        <a href="" class=""
-            ><i class="fa-brands fa-meta fa-2xl" style="color: #3f1ded"></i
-            ></a>
-
+      <div class="home_news_box_header">
+        <div class="home_news_box_header_left">
+          <h2>ARTICLES</h2>
         </div>
-    </div>
+        <div class="home_news_box_header_right">
+          <a href="about.html"><i class="fa-solid fa-arrow-right fa-rotate-by fa-2xl" 
+            style="color: #74C0FC; --fa-rotate-angle: 320deg;"></i></a>
+        </div>
+      </div>
 
-    <div class="footer_box_explore">
-        <h3>Explore</h3>
-        <a href="" class="">Collection</a>
-        <a href="" class="">Search</a>
-        <a href="" class="">Author Profile</a>
-        <a href="" class="">Account Settings</a>
-        <a href="" class="">Connect Wallet</a>
+      <div class="home_news_swiper swiper mySwiper">
+        <div class="home_news_swiper_wrapper swiper-wrapper">
+
+          <div class="home_news_swiper_slider swiper-slide">
+            <div class="home_news_swiper_slider_image">
+              <img src="../images/Untitled 3 (2).png" 
+              alt="homeNewsImage" class="homeNewsImage">
+            </div>
+              <h4>ARTICLE | <span>5 DAYS AGO</span></h4>
+              <h3>WHAT IS HORIZONS?</h3>
+              <a href="aboutHorizons.html">LEARN MORE</a>
+          </div>
+
+          <div class="home_news_swiper_slider swiper-slide">
+            <div class="home_news_swiper_slider_image">
+              <img src="../images/Untitled 6 (1).png" 
+              alt="homeNewsImage" class="homeNewsImage">
+            </div>
+              <h4>ARTICLE | <span>5 DAYS AGO</span></h4>
+              <h3>WHAT ARE NFTS?</h3>
+              <a href="aboutNFTs.html">LEARN MORE</a>
+          </div>
+
+          <div class="home_news_swiper_slider swiper-slide">
+            <div class="home_news_swiper_slider_image">
+              <img src="../images/Untitled 7.png" 
+              alt="homeNewsImage" class="homeNewsImage">
+            </div>
+              <h4>ARTICLE | <span>5 DAYS AGO</span></h4>
+              <h3>WHAT IS BLOCKCHAIN?</h3>
+              <a href="aboutBlockchain.html">LEARN MORE</a>
+          </div>
+          
+        </div>
+        <div class="home_news_swiper_slider_pagination swiper-pagination"></div>
+      </div>
+
     </div>
-    <div class="footer_box_help">
-        <h3>Help Center</h3>
-        <a href="" class="">About</a>
-        <a href="http://127.0.0.1:5500/Contact/Contact.html" class="">Contact Us</a>
-        <a href="http://127.0.0.1:5500/LogIn/LogIn.html" class="">Sign In</a>
-        <a href="http://127.0.0.1:5500/SignUp/SignUp.html" class="">Sign Up</a>
-        <a href="http://127.0.0.1:5500/Subscription/Subscription.html" class="">Subscription</a>
-    </div> 
-    <div class="subscribe2">
-        <h3>Subscribe</h3>
-    <div class="subscribe2_box">
-        <input type="email" placeholder="Enter your email" />
+  </section>
+
+  <section class="trending_display">
+    <div class="trending_display_box">
+
+      <div class="trending_display_box_left">
+
+        <div class="trending_display_box_left_header">
+          <h3>TRENDING</h3>
+        </div>
+
+        <div class="trending_display_swiper swiper mySwiper">
+          <div class="trending_display_swiper_wrapper swiper-wrapper">
+
+            <div class="trending_display_swiper_slider swiper-slide" 
+            id="artOption1" onclick="artOptionChange1()">
+              <div class="trending_display_swiper_slider_image">
+                <img src="../images/Untitled 8 (1).png" 
+                alt="trendingImage1" class="">
+              </div>
+              <div class="trending_display_swiper_name">
+                <h4>LIBERATED PUNKS</h4>
+              </div>
+            </div>
+
+            <div class="trending_display_swiper_slider swiper-slide"
+            id="artOption2" onclick="artOptionChange2()">
+              <div class="trending_display_swiper_slider_image">
+                <img src="https://wallpapers.com/images/hd/arcane-vi-from-prison-w3y59q9vwijsuz4o.jpg" 
+                alt="trendingImage1" class="">
+              </div>
+              <div class="trending_display_swiper_name">
+                <h4>TOXIC UNDERKEEP</h4>
+              </div>
+            </div>
+
+            <div class="trending_display_swiper_slider swiper-slide"
+            id="artOption3" onclick="artOptionChange3()">
+              <div class="trending_display_swiper_slider_image">
+                <img src="https://i.pinimg.com/736x/d6/60/3c/d6603cbc84a86ee2d078e05b38ed0c9d.jpg" 
+                alt="trendingImage1" class="">
+              </div>
+              <div class="trending_display_swiper_name">
+                <h4>ROYAL CORRUPTION</h4>
+              </div>
+            </div>
+
+            <div class="trending_display_swiper_slider swiper-slide"
+            id="artOption4" onclick="artOptionChange4()">
+              <div class="trending_display_swiper_slider_image">
+                <img src="https://www.popsugar.com.au/wp-content/uploads/sites/2/2021/11/arcane-netflix-2000x1000-1.jpg" 
+                alt="trendingImage1" class="">
+              </div>
+              <div class="trending_display_swiper_name">
+                <h4>GOLDEN</h4>
+              </div>
+            </div>
+
+            <div class="trending_display_swiper_slider swiper-slide"
+            id="artOption5" onclick="artOptionChange5()">
+              <div class="trending_display_swiper_slider_image">
+                <img src="https://wallpapers.com/images/hd/arcane-fearless-vander-ma54uf5juwycucuh.jpg" 
+                alt="trendingImage1" class="">
+              </div>
+              <div class="trending_display_swiper_name">
+                <h4>BEACONS</h4>
+              </div>
+            </div>
+
+            <div class="trending_display_swiper_slider swiper-slide">
+              <div class="trending_display_swiper_slider_image">
+                <img src="https://www.unrankedsmurfs.com/storage/blog/arcane-season-2-trailer-analysis/vander.png" 
+                alt="trendingImage1" class="">
+              </div>
+              <div class="trending_display_swiper_name">
+                <h4>BLOOD HOUND</h4>
+              </div>
+            </div>
+
+            <div class="trending_display_swiper_slider swiper-slide">
+              <div class="trending_display_swiper_slider_image">
+                <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/11/caitlyn-arcane.jpg" 
+                alt="trendingImage1" class="">
+              </div>
+              <div class="trending_display_swiper_name">
+                <h4>ELEGANCE</h4>
+              </div>
+            </div>
+
+            <div class="trending_display_swiper_slider swiper-slide">
+              <div class="trending_display_swiper_slider_image">
+                <img src="https://cdna.artstation.com/p/assets/images/images/046/029/680/large/ana-botnaru-silco13.jpg?1644148176" 
+                alt="trendingImage1" class="">
+              </div>
+              <div class="trending_display_swiper_name">
+                <h4>AMBITIOUS</h4>
+              </div>
+            </div>
+
+          </div>
+            <div class="trending_display_swiper_pagination swiper-pagination"></div>
+        </div>
+      </div>
+
+      <div class="trending_display_box_right">
+        <div class="trending_display_box_right_box">
+          <div class="trending_display_box_right_box_image">
+            <img src="../images/Untitled 8 (1).png" 
+            alt="trendingMainDisplayImage" id="artMainImage">
+          </div>
+          <div class="trending_display_box_right_box_description" id="artRightMain">
+            <h3 id="artMainTitle">LIBERATED PUNKS</h3>
+            <p id="artMainPara">In a world of oppression and violation by the rich and powerful, 
+              a group of misfits strive to rebel against those that bring them down.</p>
+            <div class="trending_display_box_right_box_description_box">
+              <h4 id="artPriceTitle">FLOOR PRICE: 3.5ETH</h4>
+              <h4 id="artAuthorTitle">CREATED BY: JASMINE LUCA</h4>
+            </div>
+            <a href="#">BUY</a>
+          </div>
+        </div>
+      </div>
+
+      </div>
+  </section>
+
+  <section class="home_news">
+    <div class="home_news_box">
+
+      <div class="home_news_box_header">
+        <div class="home_news_box_header_left">
+          <h2>NEWS</h2>
+        </div>
+        <div class="home_news_box_header_right">
+          <a href="blog.html"><i class="fa-solid fa-arrow-right fa-rotate-by fa-2xl" style="color: #74C0FC; --fa-rotate-angle: 320deg;"></i></a>
+        </div>
+      </div>
+
+      <div class="home_news_swiper swiper mySwiper">
+        <div class="home_news_swiper_wrapper swiper-wrapper">
+
+          <div class="home_news_swiper_slider swiper-slide">
+            <div class="home_news_swiper_slider_image">
+              <img src="https://www.theloadout.com/wp-content/sites/theloadout/2023/02/league-of-legends-patch-13-4-update-notes.jpg" 
+              alt="homeNewsImage" class="homeNewsImage">
+            </div>
+              <h4>ARTICLE | <span>5 DAYS AGO</span></h4>
+              <h3>HORIZONS NEW UPDATE</h3>
+              <a href="#">LEARN MORE</a>
+          </div>
+
+          <div class="home_news_swiper_slider swiper-slide">
+            <div class="home_news_swiper_slider_image">
+              <img src="https://cdna.artstation.com/p/assets/images/images/050/000/724/large/giada-di-stefano-arcanee-copy.jpg?1653840494" 
+              alt="homeNewsImage" class="homeNewsImage">
+            </div>
+              <h4>ARTICLE | <span>5 DAYS AGO</span></h4>
+              <h3>RAPTURE X HORIZONS</h3>
+              <a href="#">LEARN MORE</a>
+          </div>
+
+          <div class="home_news_swiper_slider swiper-slide">
+            <div class="home_news_swiper_slider_image">
+              <img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/03a149736f38e654221d4d53d2071ade8b620a3a-1920x1080.jpg?auto=format&fit=fill&q=80&w=567" 
+              alt="homeNewsImage" class="homeNewsImage">
+            </div>
+              <h4>ARTICLE | <span>5 DAYS AGO</span></h4>
+              <h3>SLINX X HORIZONS</h3>
+              <a href="#">LEARN MORE</a>
+          </div>
+          
+        </div>
+        <div class="home_news_swiper_slider_pagination swiper-pagination"></div>
+      </div>
+
     </div>
-    <div class="subscribe2_box_info">
-        <p>Discover, buy, sell, and mint digital art and collectibles</p>
+  </section>
+
+  <section class="membership">
+    <div class="membership_box">
+
+      <div class="membership_box_left">
+        <div class="membership_box_left_box">
+          <div class="membership_box_left_box_image">
+            <img src="https://images4.alphacoders.com/130/1303494.jpeg" 
+            alt="membershipDisplayImage" class="">
+          </div>
+          <div class="membership_box_left_box_description">
+            <h3>WANT MORE?</h3>
+            <p>Choose one of our subscription plans to get exclusive offes, deals, drops and more!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="membership_box_right">
+
+        <div class="membership_box_right_top">
+          <h3>JOIN OUR COMMUNITY</h3>
+        </div>
+
+        <div class="membership_box_right_swiper swiper mySwiper">
+          <div class="membership_box_right_swiper_wrapper swiper-wrapper">
+
+            <div class="membership_box_right_swiper_slider swiper-slide">
+              <div class="membership_box_right_box_image">
+                <img src="https://images4.alphacoders.com/130/1303494.jpeg" 
+                alt="membershipOption1" class="">
+              </div>
+              <div class="membership_box_right_box_name">
+                <h4>PRODIGEE</h4>
+              </div>
+            </div>
+
+            <div class="membership_box_right_swiper_slider swiper-slide">
+              <div class="membership_box_right_box_image">
+                <img src="https://images4.alphacoders.com/130/1303494.jpeg" 
+                alt="membershipOption2" class="">
+              </div>
+              <div class="membership_box_right_box_name">
+                <h4>MENTOR</h4>
+              </div>
+            </div>
+
+            <div class="membership_box_right_swiper_slider swiper-slide">
+              <div class="membership_box_right_box_image">
+                <img src="https://images4.alphacoders.com/130/1303494.jpeg" 
+                alt="membershipOption3" class="">
+              </div>
+              <div class="membership_box_right_box_name">
+                <h4>MENTOR</h4>
+              </div>
+            </div>
+
+            <div class="membership_box_right_swiper_slider swiper-slide">
+              <div class="membership_box_right_box_image">
+                <img src="https://images4.alphacoders.com/130/1303494.jpeg" 
+                alt="membershipOption4" class="">
+              </div>
+              <div class="membership_box_right_box_name">
+                <h4>MENTOR</h4>
+              </div>
+            </div>
+
+          </div>
+          <div class="membership_box_right_swiper_pagination swiper-pagination"></div>
+        </div>
+      </div>
     </div>
+  </section>
+
+  <footer>   
+    <div class="footer_box">
+
+      <div class="footer_box_top">
+        <div class="footer_box_top_left">
+          <h3>HORIZONS</h3>
+        </div>
+        <div class="footer_box_top_right">
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-instagram fa-lg" style="color: #74C0FC;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-meta fa-lg" style="color: #74C0FC;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-x-twitter fa-lg" style="color: #74C0FC;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-tiktok fa-lg" style="color: #74C0FC;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube fa-lg" style="color: #74C0FC;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin-in fa-lg" style="color: #74C0FC;"></i></a></li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="footer_box_bottom">
+        <div class="footer_box_bottom_box_top">
+          <ul>
+            <li><a href="#">PRIVACY POLICY</a></li>
+            <li><a href="#">ACCESSIBILITY</a></li>
+            <li><a href="#">LEGAL</a></li>
+            <li><a href="#">SECRURITY</a></li>
+            <li><a href="#">TERMS OF SERVICE</a></li>
+            <li><a href="#">COPYRIGHT</a></li>
+            <li><a href="#">PRESS</a></li>
+          </ul>
+        </div>
+        <div class="footer_box_bottom_box_bottom">
+          <p>Cookie Preferences</p>
+          <p>@2024 Horizons, INC . All rights reserved.</p>
+        </div>
+      </div>
     </div>
-    </div>
-</footer>
+  </footer>
 
 <script src="https://kit.fontawesome.com/f103464ccf.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
 
+/*Function for toggling menu*/
+let menuList = document.querySelector('#menuList');
+menuList.style.maxHeight = "0px";
 
-    <script>
-    const MainMenu = document.querySelector('.MainMenu');
-      const closeMenu = document.querySelector('.closeMenu');
-      const openMenu = document.querySelector('.openMenu');
+function menuToggle(){
+  if(menuList.style.maxHeight == "0px")
+    {
+      menuList.style.maxHeight = "200px";
+    }
+    else{
+      menuList.style.maxHeight = "0px";
+    }
+}
 
-      openMenu.addEventListener('click', show);
-      closeMenu.addEventListener('click',);
+//Swiper slider for articles section of Horizons home page
+var swiper = new Swiper(".home_news_swiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
 
-      function show(){
-          MainMenu.style.display = 'flex';
-          MainMenu.style.display = '0';
+      breakpoints:{
+        0:{
+          slidesPerView:1,
+          spaceBetween:39,
+        },
+        499:{
+          slidesPerView:1,
+          spaceBetween:30,
+        },
+        799:{
+          slidesPerView:2,
+          spaceBetween:30,
+        },
+        1099:{
+          slidesPerView:3,
+          spaceBetween:30,
+        }
       }
+    });
 
-      function close(){
-          MainMenu.style.top ='-100%';
+
+//Swiepr slider for gallery display on Horizons home page
+var swiper = new Swiper(".gallery_box_swiper", {
+      slidesPerView: 5,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+
+      breakpoints:{
+        0:{
+          slidesPerView:2,
+          spaceBetween:30,
+        },
+        499:{
+          slidesPerView:2,
+          spaceBetween:30,
+        },
+        799:{
+          slidesPerView:3,
+          spaceBetween:30,
+        },
+        1099:{
+          slidesPerView:5,
+          spaceBetween:30,
+        }
       }
+    });
+  
 
-    </script>
+//Swiper for browse by categoreis section
+var swiper = new Swiper(".browse_swiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".browse_swiper_pagination",
+        clickable: true,
+      },
 
-<script src="../js/horizons.js"></script>
-<script src="../js/swiper.js"></script>
+      breakpoints:{
+        0:{
+          slidesPerView:1,
+          spaceBetween:30,
+        },
+        699:{
+          slidesPerView:2,
+          spaceBetween:30,
+        },
+        899:{
+          slidesPerView:4,
+          spaceBetween:30,
+        },
+        1099:{
+          slidesPerView:4,
+          spaceBetween:30,
+        }
+      }
+    });
 
-    
+
+//Swiper for trending sldier section 
+var swiper = new Swiper(".trending_display_swiper", {
+      slidesPerView: 5,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+
+      breakpoints:{
+        0:{
+          slidesPerView:3,
+          spaceBetween:30,
+        },
+        499:{
+          slidesPerView:3,
+          spaceBetween:30,
+        },
+        799:{
+          slidesPerView:4,
+          spaceBetween:30,
+        },
+        899:{
+          slidesPerView:5,
+          spaceBetween:30,
+        }
+      }
+    });
+
+
+//Swiper for membership selection section
+var swiper = new Swiper(".membership_box_right_swiper", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+
+      breakpoints:{
+        0:{
+          slidesPerView:2,
+          spaceBetween:30,
+        },
+        499:{
+          slidesPerView:1,
+          spaceBetween:30,
+        },
+        799:{
+          slidesPerView:1,
+          spaceBetween:30,
+        },
+        899:{
+          slidesPerView:4,
+          spaceBetween:30,
+        }
+      }
+    });
+
+
+/*functions to change image gallery on click. 
+Each function is dedicated to a specific image
+*/
+
+changeImage1();
+
+function changeImage1(){
+let gall1 = document.querySelector('#gallImage1');
+gall1.addEventListener('click', function(){
+  document.querySelector('#mainImage').src = "https://i.pinimg.com/originals/45/df/82/45df82b13b747404087c04a64240893c.jpg";
+})
+}
+
+changeImage2();
+
+function changeImage2(){
+let gall2 = document.querySelector('#gallImage2');
+gall2.addEventListener('click', function(){
+  document.querySelector('#mainImage').src = "https://static0.srcdn.com/wordpress/wp-content/uploads/2024/10/the-arcane-in-arcane-season-2-trailer.jpg";
+})
+}
+
+changeImage3();
+function changeImage3(){
+let gall3 = document.querySelector('#gallImage3');
+gall3.addEventListener('click', function(){
+  document.querySelector('#mainImage').src = "https://preview.redd.it/no-spoilers-50-beautiful-4k-screenshots-from-the-s2-trailer-v0-69oet2utzzmd1.png?width=1080&crop=smart&auto=webp&s=3146e8f21f7da936e52c78d431fe4a833fd7d587";
+})
+}
+
+changeImage4();
+
+function changeImage4(){
+let gall4 = document.querySelector('#gallImage4');
+gall4.addEventListener('click', function(){
+  document.querySelector('#mainImage').src = "https://miro.medium.com/v2/resize:fit:1400/1*4nvlwcExoQl1RkBQUrr8uw.png";
+})
+}
+
+changeImage5();
+function changeImage5(){
+let gall5 = document.querySelector('#gallImage5');
+gall5.addEventListener('click', function(){
+  document.querySelector('#mainImage').src = "https://img.redbull.com/images/c_crop,w_3472,h_1736,x_453,y_0/c_auto,w_1200,h_600/f_auto,q_auto/redbullcom/2024/9/6/ug2lywrkpkqgdsmadiqq/jinx-arcane-season-2-lol";
+})
+}
+
+
+/* Functions for trending containers. 
+When an option is clicked on, the main image box
+changes alogn with the description*/
+
+
+/*Art Trending Functions */
+
+artOptionChange1();
+
+function artOptionChange1(){
+let artImage1 = document.querySelector('#artOption1');
+
+artImage1.addEventListener('click', function(){
+  document.querySelector('#artMainImage').src = "../images/Untitled 8 (1).png";
+  document.querySelector('#artMainTitle').innerHTML = "LIBERATED PUNKS";
+  document.querySelector('#artMainPara').innerHTML = "In a world of oppression and violation by the rich and powerful, a group of misfits strive to rebel against those that bring them down.";
+  document.querySelector('#artPriceTitle').innerHTML = "FLOOR PRICE: 3.5ETH";
+  document.querySelector('#artAuthorTitle').innerHTML = "CREATED BY: JINX EKKO";
+})
+}
+
+artOptionChange2();
+
+function artOptionChange2(){
+let artImage2 = document.querySelector('#artOption2');
+
+artImage2.addEventListener('click', function(){
+  document.querySelector('#artMainImage').src = "https://wallpapers.com/images/hd/arcane-vi-from-prison-w3y59q9vwijsuz4o.jpg";
+  document.querySelector('#artMainTitle').innerHTML = "TOXIC UNDERKEEP";
+  document.querySelector('#artMainPara').innerHTML = "Every city needds their golden girl, and here she is.";
+  document.querySelector('#artPriceTitle').innerHTML = "FLOOR PRICE: 2.8ETH";
+  document.querySelector('#artAuthorTitle').innerHTML = "CREATED BY: VIOLET KIRAMANN";
+})
+}
+
+artOptionChange3();
+
+function artOptionChange3(){
+let artImage3 = document.querySelector('#artOption3');
+
+artImage3.addEventListener('click', function(){
+  document.querySelector('#artMainImage').src = "https://i.pinimg.com/736x/d6/60/3c/d6603cbc84a86ee2d078e05b38ed0c9d.jpg";
+  document.querySelector('#artMainTitle').innerHTML = "ROYAL CORRUPTION";
+  document.querySelector('#artMainPara').innerHTML = "Now matter how posh, rich, or clean someone or something is, there lies a dirty, broken, or treachorous face that wears a mask to cover it all up.";
+  document.querySelector('#artPriceTitle').innerHTML = "FLOOR PRICE: 1.5ETH";
+  document.querySelector('#artAuthorTitle').innerHTML = "CREATED BY: VANDETTA KYLE";
+})
+}
+
+artOptionChange4();
+
+function artOptionChange4(){
+let artImage4 = document.querySelector('#artOption4');
+
+artImage4.addEventListener('click', function(){
+  document.querySelector('#artMainImage').src = "https://www.popsugar.com.au/wp-content/uploads/sites/2/2021/11/arcane-netflix-2000x1000-1.jpg";
+  document.querySelector('#artMainTitle').innerHTML = "GOLDEN";
+  document.querySelector('#artMainPara').innerHTML = "Riches, riches and mroe riches. Aspiration does not discriminate.";
+  document.querySelector('#artPriceTitle').innerHTML = "FLOOR PRICE: 7ETH";
+  document.querySelector('#artAuthorTitle').innerHTML = "CREATED BY: JEMIAH DAVIS";
+})
+}
+
+artOptionChange5();
+
+function artOptionChange5(){
+let artImage5 = document.querySelector('#artOption5');
+
+artImage5.addEventListener('click', function(){
+  document.querySelector('#artMainImage').src = "https://wallpapers.com/images/hd/arcane-fearless-vander-ma54uf5juwycucuh.jpg";
+  document.querySelector('#artMainTitle').innerHTML = "BEACONS";
+  document.querySelector('#artMainPara').innerHTML = "Despite the grime and blood stained streets, hope and aspiration prevail as every home needs a beacon of hope.";
+  document.querySelector('#artPriceTitle').innerHTML = "FLOOR PRICE: 4ETH";
+  document.querySelector('#artAuthorTitle').innerHTML = "CREATED BY: JULIAN MDAMA";
+})
+}
+
+</script>
 </body>
 </html>
 

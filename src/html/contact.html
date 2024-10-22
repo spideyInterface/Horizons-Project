@@ -1,185 +1,294 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fjalla+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../scss/main.scss">
-    <title>Contact</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../scss/main.scss">
+  <title>Contact</title>
 </head>
 <body>
 
-    <nav>
-        <div class="logoName"><h3>HORIZONS</h3></div>
-            <div class="openMenu"><i class="fa-solid fa-bars fa-xl"></i></div>
-            <menu class="MainMenu">
-            <li><a href="http://127.0.0.1:5500/HorizonsHome/HorizonsHome.html">HOME</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">COLLECTIONS</a></li>
-            <li><a href="">CONTACT</a></li>
-            <li><a href="">GALLEY</a></li>
-            <li><a href="">CREATE</a></li>
-            <li><a href="">WALLET</a></li>
-            <div class="closeMenu"><i class="fa-solid fa-x fa-xl"></i></div>
-        </menu>
-    </nav>
+  <nav>
+    <div class="nav_horizons">
+      <h4><a href="index.html">HORIZONS</a></h4>
+    </div>
+    <ul class="nav_links" id="menuList">
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="blog.html">MEDIA</a></li>
+      <li><a href="collectionPage.html">COLLECTION</a></li>
+      <li><a href="mint.html">MINT</a></li>
+      <li><a href="connectWallets.html">WALLET</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+      <li><a href="profile.html">PROFILE</a></li>
+    </ul>
+    <div class="nav_links_close">
+        <i class="fa-solid fa-bars fa-lg" style="color: #74C0FC;" 
+        onclick="menuToggle()" ></i>
+    </div>
+  </nav>
 
-    <header>
-        <div class="support_box">
-        <div class="support_box_left">
-        <h1>Support</h1>
-        <h2>Contact Us</h2>
-        <p>Got questions? Feel free to reach out.</p>
+  <section class="contact">
+    <section class="contact_box">
+      <h1>CONTACT</h1>
+    </section>
+  </section>
+
+  <section class="contact_heading">
+    <div class="contact_heading_box">
+
+      <div class="contact_heading_box_left">
+        <h4>HORIZONS MARKETPLACE > CONTACT</h4>
+      </div>
+
+      <div class="contact_heading_box_right">
+        <form action="submit">
+          <div class="contact_heading_box_right_search">
+            <i class="fa-solid fa-magnifying-glass fa-sm"></i>
+            <input type="text" value="SEARCH" name="contact_search">
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact_tools">
+    <div class="contact_tools_box">
+
+      <div class="contact_tools_box_top">
+        <h3>CONTACT SUPPORT</h3>
+        <p>Here are some shortcuts for getting the help you need!</p>
+      </div>
+
+      <div class="contact_tools_box_box">
+
+        <div class="contact_tools_box_box_left">
+          <h4>ACCOUNT MANAGEMENT</h4>
+          <ul>
+            <li><h5>Recover Your Account</h5><i class="fa-solid fa-arrow-right fa-rotate-by fa-sm" style="--fa-rotate-angle: 300deg;"></i></li>
+            <li><h5>Forgot Username</h5><i class="fa-solid fa-arrow-right fa-rotate-by fa-sm" style="--fa-rotate-angle: 300deg;"></i></li>
+            <li><h5>Multi-Factor Authentication</h5><i class="fa-solid fa-arrow-right fa-rotate-by fa-sm" style="--fa-rotate-angle: 300deg;"></i></li>
+          </ul>
         </div>
-        <div class="support_box_right">
-        <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" class="">
+
+        <div class="contact_tools_box_box_right">
+          <h4>PAYMENT POLICIES</h4>
+          <ul>
+            <li><h5>Membership Payment Issues</h5><i class="fa-solid fa-arrow-right fa-rotate-by fa-sm" style="--fa-rotate-angle: 300deg;"></i></li>
+            <li><h5>Membership Refund</h5><i class="fa-solid fa-arrow-right fa-rotate-by fa-sm" style="--fa-rotate-angle: 300deg;"></i></li>
+          </ul>
         </div>
+
+      </div>
+
+      <div class="contact_tools_box_box">
+        <div class="contact_tools_box_box_left">
+          <h4>PRIVACY & DATA PROTECTION</h4>
+          <ul>
+            <li><h5>Recover lost password</h5><i class="fa-solid fa-arrow-right fa-rotate-by fa-sm" style="--fa-rotate-angle: 300deg;"></i></li>
+            <li><h5>Recover username</h5><i class="fa-solid fa-arrow-right fa-rotate-by fa-sm" style="--fa-rotate-angle: 300deg;"></i></li>
+            <li><h5>Inquire about secrurity</h5><i class="fa-solid fa-arrow-right fa-rotate-by fa-sm" style="--fa-rotate-angle: 300deg;"></i></li>
+          </ul>
         </div>
-    </header>
 
-    <main>
-        <div class="contact_box">
+        <div class="contact_tools_box_box_right">
+          <h4>REPORTING</h4>
+          <ul>
+            <li><h5>Report a user</h5><i class="fa-solid fa-arrow-right fa-rotate-by fa-sm" style="--fa-rotate-angle: 300deg;"></i></li>
+            <li><h5>Inquire about personal ban</h5><i class="fa-solid fa-arrow-right fa-rotate-by fa-sm" style="--fa-rotate-angle: 300deg;"></i></li>
+          </ul>
+        </div>
+      </div>
 
-            <form action="" class="contact_box_name">
+    </div>
+  </section>
 
-                <div class="contact_first_name">
-                <label for="fname">First Name:</label>
-                <input type="text" id="fname" name="fname" value="">
-                </div>
+  <section class="contact_signIn">
+    <div class="contact_signIn_box">
 
-                <div class="contact_last_name">
-                <label for="lname">Last Name:</label>
-                <input type="text" id="lname" name="lname" value="">
-                </div>
+      <div class="contact_signIn_box_left">
+        <div class="contact_signIn_box_left_box">
+          <h4>SIGN IN TO HORIZONS ACCOUNT</h4>
+          <p>Sign into your Horizons account to view personall details and tickets.</p>
+          <a href="login.html">SIGN IN</a>
+        </div>
+      </div>
 
+      <div class="contact_signIn_box_right">
+        <div class="contact_signIn_box_right_box">
+          <div class="contact_signIn_box_right_box_top">
+            <h4>CONCERNS</h4>
+          </div>
+          <div class="contact_signIn_box_right_box_bottom">
+            <ul>
+
+              <li>
+                <h5>ACCOUNT</h5>
+                <button>CHOOSE</button>
+              </li>
+
+              <li>
+                <h5>MINTING</h5>
+                <button>CHOOSE</button>
+              </li>
+
+              <li>
+                <h5>ROYALTY</h5>
+                <button>CHOOSE</button>
+              </li>
+
+              <li>
+                <h5>PRESS</h5>
+                <button>CHOOSE</button>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact_submit">
+    <div class="contact_submit_box">
+
+      <div class="contact_submit_box_top">
+        <h3>SUBMIT A TICKET</h3>
+        <p>Couldn't find what you were looking for?
+          Submit a ticket to our support team for more help.
+        </p>
+      </div>
+
+      <div class="contact_submit_box_bottom">
+
+        <div class="contact_submit_box_bottom_box">
+
+          <div class="contact_submit_box_bottom_name">
+
+            <form action="submit">
+              <input type="text" value="First Name">
             </form>
 
-            <form action="" class="contact_box_problem">
-
-                <div class="contact_problem">
-                <label for="">Problem:</label>
-                <select name="problems" id="problems">
-                <option value="default">-</option>
-                <option value="Report">Report a user</option>
-                <option value="Membership">Membership</option>
-                <option value="Settings">Settings</option>
-                <option value="Account">Account</option>
-                </select>
-                </div>
+            <form action="submit">
+              <input type="text" value="Last Name">
             </form>
 
-            <form action="" class="contact_box_email">
+          </div>
 
-                <div class="contact_email">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" value="">
-                </div>
-
+          <div class="contact_submit_box_bottom_email">
+            <form action="submit">
+              <input type="text" value="Email">
             </form>
+          </div>
 
-            <form action="" class="contact_box_message">
-
-                <div class="contact_message">
-                <label for="message">Message:</label>
-                <textarea name="messageDescrip" id="message" rows="10" cols="100"></textarea>
-                </div>
-
+          <div class="contact_submit_box_bottom_dropdown">
+            <form action="submit">
+              <label for="contact_submit_ticket_dropdown">CONCERN</label>
+              <select name="contactDropdown" id="contactDropDown">
+                <option value="empty">-</option>
+                <option value="Account/Personal">Account/Personal</option>
+                <option value="Account Deletion">Account Deletion</option>
+                <option value="Report User">Report User</option>
+                <option value="Discuss Suspension or Issues">Discuss Suspension or Issues</option>
+                <option value="Submit Art">Submit Art</option>
+              </select>
             </form>
+          </div>
 
-            <button type="submit">Submit</button>
-        </div>
-    </main>
+          <div class="contact_submit_box_bottom_message">
+            <form action="submit">
+              <textarea name="contact_message" id="contact_submit_message" value="Type your descriptive message" cols="100" rows="20"></textarea>
+            </form>
+          </div>
 
-
-    <footer>
-        <div class="footer_box">
-            <div class="footer_box_social">
-            <h3>HORIZONS</h3>
-            <p>
-            Explore intuitive technology and art built and created with
-            ingenuity and tenacity. Horizons offers users a world where both
-            technologically savvy and creative minded people a place to call
-            home
-            </p>
-        <div class="footer_social">
-
-            <a href="" class=""
-                ><i
-                class="fa-brands fa-instagram fa-2xl"
-                style="color: #b197fc"
-                ></i
-                ></a>
-
-            <a href="" class=""
-                ><i class="fa-brands fa-github fa-2xl" style="color: #520f70"></i
-                ></a>
-
-            <a href="" class=""
-                ><i class="fa-brands fa-discord fa-2xl" style="color: #adbc9a"></i
-                ></a>
-
-            <a href="" class=""
-                ><i class="fa-brands fa-reddit fa-2xl" style="color: #ec9e69"></i
-                ></a>
-
-            <a href="" class=""
-                ><i class="fa-brands fa-meta fa-2xl" style="color: #3f1ded"></i
-                ></a>
-
-            </div>
         </div>
 
-        <div class="footer_box_explore">
-            <h3>Explore</h3>
-            <a href="" class="">Collection</a>
-            <a href="" class="">Search</a>
-            <a href="" class="">Author Profile</a>
-            <a href="" class="">Account Settings</a>
-            <a href="" class="">Connect Wallet</a>
+        <div class="contact_submit_box_bottom_box_button">
+          <button id="contact_submit_button">SUBMIT</button>
+          <p id="contact_submit_message">Thanks! We will be in touch with you soon!</p>
         </div>
-        <div class="footer_box_help">
-            <h3>Help Center</h3>
-            <a href="http://127.0.0.1:5500/About/About.html" class="">About</a>
-            <a href="http://127.0.0.1:5500/Contact/Contact.html" class="">Contact Us</a>
-            <a href="http://127.0.0.1:5500/LogIn/LogIn.html" class="">Sign In</a>
-            <a href="http://127.0.0.1:5500/SignUp/SignUp.html" class="">Sign Up</a>
-            <a href="http://127.0.0.1:5500/Subscription/Subscription.html" class="">Subscription</a>
-        </div> 
-        <div class="subscribe2">
-            <h3>Subscribe</h3>
-        <div class="subscribe2_box">
-            <input type="email" placeholder="Enter your email" />
+
+      </div>
+
+    </div>
+  </section>
+
+  <footer>   
+    <div class="footer_box">
+
+      <div class="footer_box_top">
+        <div class="footer_box_top_left">
+          <h3>HORIZONS</h3>
         </div>
-        <div class="subscribe2_box_info">
-            <p>Discover, buy, sell, and mint digital art and collectibles</p>
+        <div class="footer_box_top_right">
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-instagram fa-lg" style="color: #74C0FC;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-meta fa-lg" style="color: #74C0FC;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-x-twitter fa-lg" style="color: #74C0FC;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-tiktok fa-lg" style="color: #74C0FC;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube fa-lg" style="color: #74C0FC;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin-in fa-lg" style="color: #74C0FC;"></i></a></li>
+          </ul>
         </div>
+      </div>
+  
+      <div class="footer_box_bottom">
+        <div class="footer_box_bottom_box_top">
+          <ul>
+            <li><a href="#">PRIVACY POLICY</a></li>
+            <li><a href="#">ACCESSIBILITY</a></li>
+            <li><a href="#">LEGAL</a></li>
+            <li><a href="#">SECRURITY</a></li>
+            <li><a href="#">TERMS OF SERVICE</a></li>
+            <li><a href="#">COPYRIGHT</a></li>
+            <li><a href="#">PRESS</a></li>
+          </ul>
         </div>
+        <div class="footer_box_bottom_box_bottom">
+          <p>Cookie Preferences</p>
+          <p>@2024 Horizons, INC . All rights reserved.</p>
         </div>
-    </footer>
+      </div>
+    </div>
+  </footer>
 
-    <script src="https://kit.fontawesome.com/f103464ccf.js"></script>
 
-    <script>
+<script src="https://kit.fontawesome.com/f103464ccf.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
 
-        document.querySelector(".contact_box_name").addEventListener("submit", function(e){
+/* Functionality for toggling navbar menu in responsive design */
+let menuList = document.querySelector('#menuList');
+menuList.style.maxHeight = "0px";
 
-            search(document.querySelector("#fname"));
+function menuToggle(){
+  if(menuList.style.maxHeight == "0px")
+    {
+      menuList.style.maxHeight = "200px";
+    }
+    else{
+      menuList.style.maxHeight = "0px";
+    }
+}
 
-            e.preventDefault();
-        },false);
+//functionality for turning submit button to red after clicked
+let contactSub = document.querySelector('#contact_submit_button');
+let contactSubPara = document.querySelector('#contact_submit_message');
 
-        document.querySelector(".contact_box_email").addEventListener("submit", function(e){
+contactSub.addEventListener('click', function contactSubChange(){
+  this.style.backgroundColor = 'red';
+  this.textContent = 'SUBMITTED';
 
-            search(document.querySelector("#email"));
+  contactSubPara.classList.add('para_active');
 
-            e.preventDefault();
-        },false);
+})
 
-    </script>
-    
+
+</script>
+
 </body>
 </html>

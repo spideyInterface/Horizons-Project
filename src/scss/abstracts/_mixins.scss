@@ -1,4 +1,5 @@
 @use 'variables' as v;
+
 /* Mixins for font styles*/
 @mixin fjFontStyle(){
     font-family:v.$fjFont;
@@ -17,6 +18,13 @@
 @mixin fjFontStyle4{
     font-family:v.$fjFont;
     color:v.$fontColor4;
+    font-style:normal;
+    text-decoration:none;
+}
+
+@mixin fjFontStyle5(){
+    font-family:v.$fjFont;
+    color:v.$fontColor3;
     font-style:normal;
     text-decoration:none;
 }
@@ -40,6 +48,13 @@
     color:v.$fontColor5;
     font-style:normal;
     text-decoration:none;
+}
+
+@mixin osFontStyle4(){
+    font-family:v.$osFont;
+    color:v.$fontColor7;
+    font-style:normal;
+    text-decoration: none;
 }
 
 
@@ -83,22 +98,17 @@
 
 /*Mixin for buttons*/
 @mixin button(){
-    background-color:v.$buttonColor;
-    padding:.5rem;
-    font-family:v.$fjFont;
-    border:transparent;
-
+    background-color:v.$fontColor3;
+    padding-top:.7rem;
+    padding-bottom:.7rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    @include fjFontStyle2;
+    border:0.07rem solid v.$fontColor3;
     &:hover{
         cursor:pointer;
-        background-color:#C8AA6E;
         transition: all .4s ease-in-out;
     }
-}
-
-@mixin hover(){
-    cursor:pointer;
-    background-color:#C8AA6E;
-    transition: all .4s ease-in-out;
 }
 
 /*Mixins for grid layouts*/
@@ -106,7 +116,7 @@
     margin: 0 auto;
     width: 90%;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(2,1fr);
     grid-template-rows: 1fr;
     gap: 1rem;
     padding-top: 5rem;
@@ -119,12 +129,138 @@
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
     gap: 1rem;
-    padding-top: 5rem;
 }
 
-@mixin categoriesGrid(){
+@mixin sectionGrid3(){
     display:grid;
-    grid-template-columns: repeat(5,1fr);
+    width:90%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap:2rem;
+}
+
+@mixin sectionGrid4(){
+    display:grid;
+    width:90%;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
     gap:1rem;
 }
+
+@mixin sectionGrid5(){
+    display:grid;
+    width:90%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,1fr);
+    gap:1rem;
+}
+
+@mixin sectionGrid6(){
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,1fr);
+    gap:1rem;
+}
+
+@mixin sectionGrid7(){
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+    gap:1rem;
+}
+
+@mixin sectionGrid8(){
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap:1rem;
+}
+
+@mixin sectionGrid9(){
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap:1rem;
+}
+
+@mixin sectionGridBoxGrid(){
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,1fr);
+    position:relative;
+}
+
+@mixin sectionGridBoxGrid2(){
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr;
+    position:relative;
+    display:grid;
+    gap:2rem;
+}
+
+@mixin topPicksGrid(){
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:2rem;
+    margin:0 auto;
+}
+
+//grid layout for article page description boxes
+@mixin articleBox(){
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+}
+
+@mixin articleBoxBox(){
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+    gap:1rem;
+}
+
+@mixin articleBoxBoxHome(){
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+    gap:1rem;
+}
+
+//grid layout for guide intro
+@mixin browseGrid(){
+    display:grid;
+    gap:1rem;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1fr;
+}
+
+//grid layout for articles main body section in blog.html
+@mixin articlesMainGrid(){
+    display:grid;
+    margin:0 auto;
+    width:90%;
+    grid-template-columns: repeat(2,1fr);
+    gap:2rem;
+}
+
+//grid layout for profile settings header section
+@mixin profileHeaderGrid(){
+    margin:0 auto;
+    width:80%;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    gap:1rem;
+}
+
+//keyframes rules
+@mixin keyframes($name) {
+    @keyframes #{$name} {
+      @content;
+    }
+  }
+  // Define the animation mixin
+  @mixin animate($animation, $method, $timeline) {
+    animation: $animation $method $timeline;
+  }

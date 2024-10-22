@@ -1,0 +1,523 @@
+@use '../abstracts' as a;
+
+.nftCollection_header{
+    box-sizing: border-box;
+    margin:auto 0;
+    background-image:url("https://images4.alphacoders.com/130/1303494.jpeg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:8rem;
+    padding-bottom:3rem;
+}
+
+.nftCollection_header_box{
+    box-sizing: border-box;
+    width:95%;
+    margin:auto;
+}
+
+.nftCollection_header_box_image{
+    height:10rem;
+    width:10rem;
+    img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+}
+
+.nftCollection_intro{
+    box-sizing: border-box;
+    margin:auto;
+    width:95%;
+    background-color:a.$background-color12;
+}
+
+.nftCollection_intro_box{
+    width:100%;
+    box-sizing: border-box;
+    margin:auto;
+    /*display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+    gap:1rem;*/
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    @media (min-width:0px) and (max-width:750px){
+        grid-template-rows: auto auto;
+        grid-template-columns: 100%;
+    }
+}
+
+.nftCollection_intro_box_top{
+    display:flex;
+    flex-direction: column;
+    text-align:left;
+    justify-content: center;
+    gap:1rem;
+    h3{
+        @include a.fjFontStyle;
+        font-weight:600;
+        font-size:1.2rem;
+    }
+    h4{
+        @include a.fjFontStyle;
+        font-weight:550;
+    }
+}
+
+.nftCollection_intro_box_center{
+    box-sizing: border-box;
+    justify-content: center;
+    text-align:left;
+    h4{
+        @include a.fjFontStyle;
+        font-weight:600;
+        padding-bottom:.5rem;
+    }
+    ul{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        gap:1rem;
+        list-style:none;
+        @media (min-width:0px) and (max-width:550px){
+            display:flex;
+            flex-direction: column;
+            text-align:left;
+            align-items: flex-start;
+        }
+        li{
+            @include a.osFontStyle;
+            font-weight:500;
+            font-size:0.9rem;
+        }
+    }
+}
+
+.nftCollection_intro_box_bottom{
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    h4{
+        @include a.fjFontStyle;
+        font-weight:600;
+    }
+    p{
+        @include a.osFontStyle;
+        font-weight:500;
+    }
+}
+
+.nftCollection_intro_box_bottom_facts{
+    box-sizing: border-box;
+    justify-content: center;  
+    ul{
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        gap:1rem;
+        list-style:none;
+        @media (min-width:0px) and (max-width:550px){
+            display:flex;
+            flex-direction: column;
+            text-align:left;
+            align-items: flex-start;
+        }
+    }
+}
+
+.nftCollection_intro_box_bottom_facts_box{
+    display:flex;
+    flex-direction: column;
+    gap:.5rem;
+    h4{
+        @include a.fjFontStyle;
+        font-weight:600;
+    }
+    p{
+        @include a.osFontStyle;
+        font-weight:500;
+    }
+}
+
+.nftCollection_main_body{
+    box-sizing: border-box;
+    margin:auto 0;
+}
+
+.nftCollection_main_body_box{
+    box-sizing: border-box;
+    margin:0 auto;
+    width:95%;
+    display:grid;
+    grid-template-columns: .5fr 2fr;
+    grid-template-rows: 1fr;
+    gap:1rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    @media (min-width:0px) and (max-width:850px){
+        grid-template-rows: auto auto;
+        grid-template-columns: 100%;
+    }
+}
+
+.nftCollection_main_body_box_left{
+    box-sizing: border-box;
+    text-align:left;
+    ul{
+        display:flex;
+        flex-direction: column;
+        gap:1rem;
+        list-style:none;
+        padding-bottom:.5rem;
+    }
+}
+
+.nftCollection_main_body_box_left_box_top{
+    box-sizing: border-box;
+    display:flex;
+    align-items:center;
+    flex-direction: row;
+    gap:2rem;
+    padding-bottom:.5rem;
+    justify-content: space-between;
+    h3{
+        @include a.fjFontStyle;
+        font-weight:600;
+    }
+}
+
+.nftCollection_main_body_box_left_box_bottom{
+    box-sizing: border-box;
+    display:none;
+    &:active{
+        display:block;
+    }
+}
+
+.nftCollection_main_body_box_left_box_status_check{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    label{
+        span{
+            @include a.osFontStyle;
+            font-weight:550;
+            font-size:.8rem;
+        }
+    }
+}
+
+.nftCollection_main_body_box_right{
+    box-sizing: border-box;
+    text-align:left;
+    width:95%;
+    margin:auto;
+}
+
+.nftCollection_main_body_box_right_heading{
+    text-align:left;
+    h3{
+        @include a.fjFontStyle;
+        font-weight:600;
+        padding-bottom:.5rem;
+    }
+}
+
+.nftCollection_main_body_box_right_heading_bottom{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    gap:1rem;
+    @media (min-width:0px) and (max-width:450px){
+        flex-direction: column;
+        align-items:flex-start;
+        gap:1rem;
+    }
+    form{
+        width:100%;
+        input{
+            width:100%;
+            padding:.2rem;
+        }
+    }
+}
+
+.nftCollection_main_body_box_right_collection{
+    box-sizing: border-box;
+    margin:auto 0;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap:1rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    @media (min-width:0px) and (max-width:750px){
+        grid-template-rows: auto auto;
+        grid-template-columns: 100%;
+    }
+}
+
+.nftCollection_main_body_box_right_collection_box{
+    box-sizing: border-box;
+    margin:auto;
+    width:100%;
+}
+
+.nftCollection_main_body_box_right_collection_box_image{
+    box-sizing: border-box;
+    height:15rem;
+    width:100%;
+    img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+}
+
+.nftCollection_main_body_box_right_collection_box_details{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,1fr);
+    gap:.5rem;
+    padding-top:.5rem;
+    ul{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:center;
+        list-style:none;
+        li{
+            @include a.osFontStyle;
+            font-weight:550;
+            font-size:.8rem;
+        }
+    }
+}
+
+.nftCollection_main_body_box_right_collection_box_details_action{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    button{
+        background-color: a.$fontColor3;
+        @include a.fjFontStyle;
+        font-weight:550;
+        border:transparent;
+        padding:.3rem;
+        width:8rem;
+        &:hover{
+            cursor:pointer;
+        }
+    }
+}
+
+.nftCollection_main_body_box_right_arrow_numbers{
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    padding-top:1rem;
+}
+
+.nftCollection_main_body_box_right_arrow_numbers_box{
+    //*
+    ul{
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        gap:1rem;
+        list-style:none;
+        li{
+            @include a.osFontStyle;
+            font-weight:550;
+            border-radius:6rem;
+            padding-top:.2rem;
+            padding-bottom:.2rem;
+            padding-left:.5rem;
+            padding-right:.5rem;
+            &:hover{
+                background-color:a.$fontColor3;
+                cursor:pointer;
+            }
+        }
+    }
+}
+
+.nftCollection_main_body_box_right_arrow_numbers_box_show_more{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    gap:1rem;
+    h5{
+        @include a.osFontStyle;
+        font-weight:550;
+    }
+    div{
+        height: 1rem;
+        width:1rem;
+        content:"";
+        border:0.3rem solid a.$fontColor;
+        border-top-color:a.$fontColor3;
+        border-radius:50%;
+    }
+}
+
+.profile_slider1{
+    box-sizing: border-box;
+    padding-top:3rem;
+    padding-bottom:3rem;
+
+    .profile_slider1_heading{
+        width:95%;
+        margin:0 auto;
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+
+        h3{
+            @include a.fjFontStyle;
+            font-weight:600;
+            font-size:1.3rem;
+        }
+
+        button{
+            background-color:transparent;
+            border-radius:6rem;
+            padding-top:.3rem;
+            padding-bottom:.3rem;
+            padding-left:.6rem;
+            padding-right:.6rem;
+
+            i{
+                text-align:center;
+            }
+
+            &:hover{
+                cursor:pointer;
+            }
+        }
+    }
+
+    .profile_slider1_swiper{
+        box-sizing: border-box;
+        margin:0 auto;
+        padding-top:1rem;
+        padding-bottom:2rem;
+        width:95%;
+
+        .profile_slider1_wrapper{
+            width:100%;
+            height:100%;
+            transition-timing-function : linear;
+
+            .profile_slider1_slider{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .profile_slider1_slider_bottom{
+                    display:flex;
+                    flex-direction: row;
+                    align-items:center;
+                    justify-content: space-between;
+                    width:100%;
+
+                    h5{
+                        @include a.fjFontStyle;
+                        font-weight:600;
+                    }
+                    
+                    .profile_slider1_slider_bottom_box{
+                        display:flex;
+                        flex-direction: column;
+                        text-align:left;
+                    }
+                }
+
+                .profile_slider1_slider_image{
+                    text-align:center;
+                    img{
+                        width:100%;
+                        height:100%;
+                        margin:0 auto;
+                        text-align:center;
+                        object-fit:cover;
+                    }
+                }
+            }
+        }
+
+        .swiper-pagination-bullets{
+            bottom:-.2rem;
+        }
+    }
+}
+
+.media_newsletter{
+    box-sizing: border-box;
+    margin:auto 0;
+    background-color:a.$background-color10;
+}
+
+.media_newsletter_box{
+    padding-top:3rem;
+    padding-bottom:3rem;
+    margin:auto;
+    width:95%;
+    display:flex;
+    flex-direction: row;
+    gap:1rem;
+    justify-content: space-between;
+    align-items:center;
+    @media (min-width:0px) and (max-width:600px){
+        flex-direction: column;
+    }
+}
+
+.media_newsletter_box_left{
+    justify-content: center;
+    h3{
+        @include a.fjFontStyle2;
+        font-weight:600;
+        font-size:1.2rem;
+    }
+} 
+
+.media_newsletter_box_right{
+    justify-content: center;
+    display:flex;
+    flex-direction: row;
+    gap:1rem;
+    @media (min-width:0px) and (max-width:630px){
+        flex-direction: column;
+        text-align:center;
+    }
+    form{
+        align-items:center;
+        input{
+            padding:.5rem;
+        }
+        #emailNewsletterSubmit{
+            @include a.fjFontStyle2;
+            font-weight:500;
+            font-size:1rem;
+            background-color:a.$fontColor3;
+            border:transparent;
+            &:hover{
+                cursor:pointer;
+            }
+        }
+    }
+}

@@ -1,51 +1,80 @@
 @use '../abstracts' as a;
 
-/*Styling for Nav Bar in Wallet article*/
-nav {
-    @include a.fjFontStyle2;
-    display: flex;
-    background-color: #111;
+nav{
+    display:flex;
+    align-items:center;
+    position:relative;
+    box-sizing:border-box;
     justify-content: space-between;
-    position: fixed;
-    top: 0%;
-    width: 100%;
-    z-index: 10;
-
-    h3{
-        @include a.fjFontStyle2;
-        padding-left: 0.5rem;
-        padding-top:.9rem;
-    }
-
-    menu{
-        display: flex;
-        list-style: none;
-
-        a{
-            @include a.fjFontStyle2;
-            display: inline-block;
-            padding: 0.938rem;
-            transition: all 0.3s ease-out;
-            font-size: 1rem;
-            font-optical-sizing: auto;
-
+    position:fixed;
+    padding:1rem;
+    top:0;
+    right:0;
+    left:0;
+    z-index:2000;
+    width:100%;
+    background-color:a.$background-color1;
+    ul{
+        display:flex;
+        gap:1rem;
+        align-items:center;
+        li{
+            list-style:none;
+            a{
+                text-decoration: none;
+                @include a.fjFontStyle2;
+                font-weight:500;
+                font-size:1rem;
+            }
             &:hover{
                 cursor: pointer;
                 text-decoration: underline;
                 text-decoration-color: a.$background-color2;
                 text-decoration-thickness: 0.2rem;
+                transition:0.5s ease;
+                font-weight:600;
             }
         }
-
-        .closeMenu{
-            display: none;
-            cursor: pointer;
-        }
     }
+}
 
-    .openMenu{
-        margin: 1.25rem;
-        display: none;
-        cursor: pointer;
+.nav_horizons{
+    a{
+        font-weight:600;
+        font-size:1.2rem;
+        @include a.fjFontStyle2;
+        text-decoration:none;
+    }
+}
+
+.nav_links_close{
+    display:none;
+    //i{
+        //display:none
+    //}
+}
+
+@include a.media(phone){
+    nav{
+        ul{
+            position:absolute;
+            top:30px;
+            left:0;
+            right:0;
+            flex-direction:column;
+            text-align:center;
+            background-color:#111;
+            gap:0;
+            overflow:hidden;
+            li{
+                padding:.5rem;
+            }
+        }
+        .nav_links_close{
+            display:block;
+        }
+        #menuList{
+            transition: all 0.5s ease;
+        }
     }
 }
