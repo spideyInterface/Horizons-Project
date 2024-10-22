@@ -1,0 +1,130 @@
+@use 'variables' as v;
+/* Mixins for font styles*/
+@mixin fjFontStyle(){
+    font-family:v.$fjFont;
+    color:v.$fontColor;
+    font-style:normal;
+    text-decoration:none;
+}
+
+@mixin fjFontStyle2(){
+    font-family:v.$fjFont;
+    color:v.$fontColor2;
+    font-style:normal;
+    text-decoration:none;
+}
+
+@mixin fjFontStyle4{
+    font-family:v.$fjFont;
+    color:v.$fontColor4;
+    font-style:normal;
+    text-decoration:none;
+}
+
+@mixin osFontStyle(){
+    font-family:v.$osFont;
+    color:v.$fontColor;
+    font-style:normal;
+    text-decoration:none;
+}
+
+@mixin osFontStyle2(){
+    font-family:v.$osFont;
+    color:v.$fontColor2;
+    font-style:normal;
+    text-decoration:none;
+}
+
+@mixin osFontStyle3(){
+    font-family:v.$osFont;
+    color:v.$fontColor5;
+    font-style:normal;
+    text-decoration:none;
+}
+
+
+/*Mixins for input boxes*/
+@mixin inputBox1(){
+    padding:.5rem;
+    width:100%;
+    background-color:white;
+    border:0.1rem solid v.$background-color4;
+}
+
+@mixin inputBox2(){
+    padding:.5rem;
+    background-color:white;
+    border:0.1rem solid v.$background-color4;
+}
+
+@mixin textarea(){
+    background-color:white;
+    width:100%;
+    border:0.1rem solid v.$background-color4;
+}
+
+@mixin selectMenu(){
+    background-color:white;
+    width:50%;
+    border:0.1rem solid v.$background-color4;
+    cursor:pointer;
+}
+
+@mixin optionMenu(){
+    background-color:white;
+    cursor:pointer;
+
+    &:hover{
+        cursor:pointer;
+        background-color:v.$background-color3;
+    }
+}
+
+
+/*Mixin for buttons*/
+@mixin button(){
+    background-color:v.$buttonColor;
+    padding:.5rem;
+    font-family:v.$fjFont;
+    border:transparent;
+
+    &:hover{
+        cursor:pointer;
+        background-color:#C8AA6E;
+        transition: all .4s ease-in-out;
+    }
+}
+
+@mixin hover(){
+    cursor:pointer;
+    background-color:#C8AA6E;
+    transition: all .4s ease-in-out;
+}
+
+/*Mixins for grid layouts*/
+@mixin sectionGrid(){
+    margin: 0 auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+    padding-top: 5rem;
+}
+
+@mixin sectionGrid2(){
+    margin: 0 auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+    padding-top: 5rem;
+}
+
+@mixin categoriesGrid(){
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1fr;
+    gap:1rem;
+}

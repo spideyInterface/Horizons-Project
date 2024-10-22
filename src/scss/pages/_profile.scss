@@ -1,0 +1,134 @@
+@use '../abstracts' as a;
+
+header{
+    width:100%;
+    margin:0 auto;
+    padding-top:8rem;
+    padding-bottom:5rem;
+    background-color: a.$background-color1;
+    
+    .profile_header_box{
+        padding:2rem;
+        margin:0 auto;
+        width:80%;
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        gap:1rem;
+    }
+
+    .profile_header_box_left{
+        grid-column: 1/1;
+        margin:0 auto;
+    }
+
+    .profile_header_box_right{
+        grid-column: 2/2;
+        margin:0 auto;
+
+        h1{
+            @include a.fjFontStyle;
+            color: a.$fontColor2;
+            padding-bottom:1rem;
+        }
+
+        p{
+            @include a.osFontStyle;
+            color: a.$fontColor2;
+            padding-bottom:1rem;
+        }
+
+        .profile_settings_socials{
+            float:right;
+            gap:2rem;
+
+            span{
+                font-size:2rem;
+                color: a.$fontColor2;
+            }
+        }
+    }
+}
+
+main{
+    margin:0 auto;
+    width:100%;
+    padding-top:5rem;
+    padding-bottom:5rem;
+
+    .profile_intro_about{
+        margin:0 auto;
+        width:70%;
+        padding:1rem;
+
+        h3{
+            margin:0 auto;
+            text-align:center;
+            padding-top:.5rem;
+            @include a.fjFontStyle;
+        }
+
+        p{
+            @include a.osFontStyle;
+            padding-top:.5rem;
+            padding-bottom:.5rem;
+        }
+    }
+
+    .profile_intro_about_stats{
+        display:flex;
+        width:fit-content;
+        padding-top:1rem;
+        gap:2rem;
+        margin:0 auto;
+
+        .profile_intro_about_stats_box{
+            padding:.5rem;
+            text-align:center;
+            border-top:0.1rem solid a.$buttonColor;
+            border-bottom:0.1rem solid a.$buttonColor;
+
+            h4{
+                @include a.fjFontStyle;
+            }
+    
+            p{
+                @include a.osFontStyle;
+            }
+        }
+    }
+
+    .profile_collection{
+        width:100%;
+        padding-top:5rem;
+        padding-bottom:5rem;
+        margin:0 auto;
+
+        h3{
+            margin:0 auto;
+            text-align:center;
+            @include a.fjFontStyle;
+            padding-bottom:1rem;
+        }
+
+        .profile_collection_box{
+            width:90%;
+            margin: 0 auto;
+            display:grid;
+            grid-template-columns: repeat(5,1fr);
+            gap:1rem;
+            text-align:center;
+
+            img{
+                object-fit:cover;
+                text-align:center;
+                position:center;
+            }
+
+            h4{
+                @include a.fjFontStyle;
+                padding-top:.5rem;
+            }
+        }
+    }
+}

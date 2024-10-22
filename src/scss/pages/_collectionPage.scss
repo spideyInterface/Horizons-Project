@@ -1,0 +1,264 @@
+@use '../abstracts' as a;
+
+header{
+    width:100%;
+    margin:0 auto;
+    padding-top:10rem;
+    padding-bottom:10rem;
+    
+    h1{
+        @include a.fjFontStyle;
+        margin:0 auto;
+        text-align:center;
+    }
+}
+
+main{
+    margin:0 auto;
+    width:100%;
+    padding-top:5rem;
+    background-color: a.$background-color1;
+
+    .collection_box{
+        margin:0 auto;
+        width:90%;
+        padding:1rem;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr;
+        gap:1rem;
+        padding-bottom:5rem;
+        padding-bottom:5rem;
+
+        .collection_box_left{
+            grid-column: 1/1;
+            margin:0 auto;
+
+            h4{
+                @include a.fjFontStyle2;
+                padding-bottom:.5rem;
+            }
+
+            h3{
+                @include a.fjFontStyle2;
+                padding-top:1rem;
+            }
+
+            p{
+                @include a.osFontStyle2;
+                padding-top:1rem;
+                padding-bottom:1rem;
+                width:80%;
+            }
+
+            img{
+                object-fit:cover;
+            }
+
+        }
+
+        .collection_box_left_bid{
+            display:flex;
+            gap:1rem;
+
+            h5{
+                @include a.osFontStyle2;
+            }
+
+            span{
+                @include a.fjFontStyle;
+                color: a.$fontColor3;
+            }
+        }
+
+        .collection_box_right{
+            grid-column: 2/2;
+            margin:0 auto;
+            text-align:center;
+
+            img{
+                object-fit:cover;
+                position:center;
+                text-align:center;
+                margin:0 auto;
+                width:100%;
+                height:100%;
+            }
+        }
+    }
+}
+
+section{
+    margin:0 auto;
+    width:100%;
+    padding-top:5rem;
+    padding-bottom:5rem;
+
+    .collection_box_center_para{
+        width:70%;
+        margin:0 auto;
+
+        h4{
+            @include a.fjFontStyle;
+            border-bottom:0.1rem solid a.$fontColor3;
+            text-align:center;
+        }
+
+        p{
+            @include a.osFontStyle;
+            padding-top:1rem;
+            padding-bottom:5rem;
+        }
+    }
+
+    .collection_box_center_stats{
+        width:100%;
+        margin:0 auto;
+
+        .collection_box_center_stats_box{
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: 1fr;
+            gap:2rem;
+            margin:0 auto;
+            width:70%;
+
+            .collection_stats_box{
+                margin:0 auto;
+                text-align:center;
+                border-top:0.1rem solid #C89B3C;
+                border-bottom:0.1rem solid #C89B3C;
+                padding:1rem;
+
+                h5{
+                    @include a.fjFontStyle;
+                }
+
+                p{
+                    @include a.osFontStyle;
+                }
+            }
+        }
+    }
+
+    .collection_nfts_display{
+        width:80%;
+        margin:0 auto;
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        gap:1rem;
+        background-color: a.$background-color1;
+
+        .collection_nfts_box{
+            margin:0 auto;
+            padding:1rem;
+            background-color: a.$background-color3;
+
+            h5{
+                @include a.fjFontStyle;
+                padding-top:.5rem;
+            }
+
+            p{
+                @include a.osFontStyle;
+                padding-top:.5rem;
+                padding-bottom:.5rem;
+            }
+
+            button{
+                @include a.button;
+            }
+
+
+            .collection_nfts_box_stats{
+                display:flex;
+                gap:1rem;
+            }
+        }
+    }
+
+}
+
+.collection_about_box{
+    width:90%;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+    gap:1rem;
+
+    h3{
+        @include a.fjFontStyle;
+    }
+
+    p{
+        @include a.osFontStyle;
+        padding-top:.5rem;
+    }
+
+    .collection_about_left{
+        grid-column: 1/1;
+        padding:1rem;
+        text-align:left;
+
+    }
+}
+
+
+.collection_selection{
+    margin:0 auto;
+    background-color: a.$background-color5;
+    padding-top:5rem;
+    padding-bottom:5rem;
+    width:100%;
+
+    h3{
+        @include a.fjFontStyle;
+        width:fit-content;
+        text-align:center;
+        margin:0 auto;
+    }
+
+    .collection_selection_box{
+        width:80%;
+        margin:0 auto;
+        padding:1rem;
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: auto;
+        gap:1rem;
+
+        .collection_selection_box_box{
+            margin:0 auto;
+            text-align:left;
+            padding:1rem;
+
+            img{
+                object-fit:cover;
+                position:center;
+            }
+
+            h4{
+                @include a.fjFontStyle;
+                padding-top:.5rem;
+                text-align:center;
+            }
+
+            h5{
+                @include a.osFontStyle;
+                padding-top:.3rem;
+                text-align:center;
+            }
+
+            h6{
+                @include a.osFontStyle;
+                padding-top:.5rem;
+            }
+
+            .collection_selection_box_box_bottom{
+                display:flex;
+                gap:1rem;
+            }
+        }
+    }
+}

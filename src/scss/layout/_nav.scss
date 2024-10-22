@@ -1,0 +1,51 @@
+@use '../abstracts' as a;
+
+/*Styling for Nav Bar in Wallet article*/
+nav {
+    @include a.fjFontStyle2;
+    display: flex;
+    background-color: #111;
+    justify-content: space-between;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 10;
+
+    h3{
+        @include a.fjFontStyle2;
+        padding-left: 0.5rem;
+        padding-top:.9rem;
+    }
+
+    menu{
+        display: flex;
+        list-style: none;
+
+        a{
+            @include a.fjFontStyle2;
+            display: inline-block;
+            padding: 0.938rem;
+            transition: all 0.3s ease-out;
+            font-size: 1rem;
+            font-optical-sizing: auto;
+
+            &:hover{
+                cursor: pointer;
+                text-decoration: underline;
+                text-decoration-color: a.$background-color2;
+                text-decoration-thickness: 0.2rem;
+            }
+        }
+
+        .closeMenu{
+            display: none;
+            cursor: pointer;
+        }
+    }
+
+    .openMenu{
+        margin: 1.25rem;
+        display: none;
+        cursor: pointer;
+    }
+}

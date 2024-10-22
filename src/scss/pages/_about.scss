@@ -1,0 +1,170 @@
+@use '../abstracts' as a;
+
+header{
+    width:100%;
+    margin:0 auto;
+    padding-top:10rem;
+    padding-bottom:8rem;
+    background-color: a.$background-color3;
+
+    .about_box{
+        margin:0 auto;
+        width:fit-content;
+        text-align:center;
+
+        h1{
+            @include a.fjFontStyle2;
+            padding-bottom:1rem;
+        }
+    }
+}
+
+.about_overview_box{
+    width:80%;
+    margin:0 auto;
+    padding-top:5rem;
+
+    h3{
+        @include a.fjFontStyle;
+        text-align:center;
+    }
+
+    p{
+        @include a.osFontStyle;
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+}
+
+
+
+.about_mission{
+    width:100%;
+    padding-top:5rem;
+    padding-bottom:5rem;
+
+.about_mission_box{
+    margin:0 auto;
+    width:90%;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    gap:1rem;
+
+    .about_mission_left{
+        margin:0 auto;
+        grid-column:1/1;
+        padding-top:5rem;
+
+        h3{
+            @include a.fjFontStyle;
+        }
+
+        p{
+            @include a.osFontStyle;
+            padding-top:1rem;
+        }
+    }
+
+    .about_mission_right{
+        margin:0 auto;
+        text-align:center;
+        grid-column: 2/2;
+
+        img{
+            object-fit:cover;
+            position:center;
+            text-align:center;
+        }
+    }
+}
+}
+
+.about_founding_box{
+    width:80%;
+    margin:0 auto;
+
+    h3{
+        @include a.fjFontStyle;
+        text-align:center;
+    }
+
+    p{
+        @include a.osFontStyle;
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+}
+
+.about_values_box{
+    margin:0 auto;
+    width:90%;
+
+    h3{
+        @include a.fjFontStyle;
+        text-align:center;
+        padding-bottom:2rem;
+    }
+
+    .about_values_box_wrapper{
+        margin:0 auto;
+        width:80%;
+        display:grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: 1fr;
+        gap:1rem;
+
+        h4{
+            @include a.fjFontStyle;
+            text-align:center;
+        }
+
+        p{
+            @include a.osFontStyle;
+            padding:1rem;
+        }
+    }
+}
+
+.about_articles_explore_box{
+    margin:0 auto;
+    width:90%;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    gap:1rem;
+
+    .about_articles_explore_box_left{
+        grid-column:1/1;
+        padding-top:5rem;
+           
+        h3{
+            @include a.fjFontStyle;
+            padding-bottom:1rem;
+        }
+
+        p{
+            @include a.osFontStyle;
+            padding-bottom:1rem;
+        }
+
+        button{
+            @include a.button;
+
+            a{
+                @include a.fjFontStyle;
+            }
+        }
+    }
+
+    .about_articles_explore_box_right{
+        grid-column: 2/2;
+        margin:0 auto;
+        text-align:center;
+
+        img{
+            object-fit:cover;
+            position:center;
+        }
+    }
+}
