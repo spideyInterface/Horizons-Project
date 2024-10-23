@@ -3727,7 +3727,7 @@ button a {
   margin: 0 auto;
 }
 
-.signUp_header .signUp_header_box {
+.signUp_header_box {
   box-sizing: border-box;
   width: 95%;
   margin: 0 auto;
@@ -3735,7 +3735,7 @@ button a {
   padding-bottom: 3rem;
 }
 
-.signUp_header .signUp_header_box h1 {
+.signUp_header_box h1 {
   color: #f5f5f5;
   font-family: Spiegel;
   font-size: 1.5rem;
@@ -3749,7 +3749,7 @@ button a {
   margin: 0 auto;
 }
 
-.signUp .signUp_box {
+.signUp_box {
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
@@ -3760,12 +3760,12 @@ button a {
 }
 
 @media (width <= 599px) {
-  .signUp .signUp_box {
+  .signUp_box {
     grid-template-columns: 1fr;
   }
 }
 
-.signUp .signUp_box .signUp_box_box {
+.signUp_box_box {
   box-sizing: border-box;
   background-color: #0a0a0a;
   flex-direction: column;
@@ -3777,11 +3777,11 @@ button a {
   display: flex;
 }
 
-.signUp .signUp_box .signUp_box_box .signUp_box_box_top {
+.signUp_box_box_top {
   box-sizing: border-box;
 }
 
-.signUp .signUp_box .signUp_box_box .signUp_box_box_top h4 {
+.signUp_box_box_top h4 {
   color: #f5f5f5;
   text-align: center;
   width: fit-content;
@@ -3794,7 +3794,7 @@ button a {
   text-decoration: none;
 }
 
-.signUp .signUp_box .signUp_box_box .signUp_box_box_top ul {
+.signUp_box_box_top ul {
   flex-direction: row;
   align-items: center;
   gap: 1rem;
@@ -3805,52 +3805,52 @@ button a {
   display: flex;
 }
 
-.signUp .signUp_box .signUp_box_box .signUp_box_box_bottom {
+.signUp_box_box_bottom {
   box-sizing: border-box;
   flex-direction: column;
   gap: 1rem;
   display: flex;
 }
 
-.signUp .signUp_box .signUp_box_box .signUp_box_box_bottom form {
+.signUp_box_box_bottom form {
   box-sizing: border-box;
   flex-direction: column;
   display: flex;
 }
 
-.signUp .signUp_box .signUp_box_box .signUp_box_box_bottom form input {
+.signUp_box_box_bottom form input {
   width: 15rem;
   margin: 0 auto;
   padding: .3rem;
 }
 
 @media (width <= 599px) {
-  .signUp .signUp_box .signUp_box_box .signUp_box_box_bottom form input {
+  .signUp_box_box_bottom form input {
     width: 95%;
   }
 }
 
-.signUp .signUp_box .signUp_box_box .signUp_go {
+.signUp_go {
   justify-content: center;
   margin: 0 auto;
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
 
-.signUp .signUp_box .signUp_box_box .signUp_go a {
+.signUp_go a {
   border: .01rem solid #0a1428;
   border-radius: 6rem;
   padding: 1.5rem;
   font-weight: 500;
 }
 
-.signUp .signUp_box .signUp_box_box .signUp_go_create {
+.signUp_go_create {
   width: fit-content;
   margin: 0 auto;
   padding-top: 1rem;
 }
 
-.signUp .signUp_box .signUp_box_box .signUp_go_create a {
+.signUp_go_create a {
   color: #f5f5f5;
   font-family: Inter, sans-serif;
   font-size: .8rem;
