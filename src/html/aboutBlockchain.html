@@ -324,49 +324,6 @@
 
 <script src="https://kit.fontawesome.com/f103464ccf.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-
-  /*Function for toggling menu*/
-let menuList = document.querySelector('#menuList');
-  menuList.style.maxHeight = "0px";
-
-  function menuToggle(){
-    if(menuList.style.maxHeight == "0px")
-      {
-        menuList.style.maxHeight = "200px";
-      }
-      else{
-        menuList.style.maxHeight = "0px";
-      }
-  }
-
-  var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  slidesPerGroup:3,
-  spaceBetween: 30,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  breakpoints: {
-    0:{
-      slidesPerView:1,
-    },
-    640: {
-      slidesPerView: 2,
-      spaceBetween: 10,
-    },
-    768: {
-      slidesPerView: 3,
-      spaceBetween: 10,
-    },
-    1024: {
-      slidesPerView: 3,  
-      spaceBetween: 20,
-    },
-  },
-});
-
-</script>
+<script src="../js/navBar.js"></script>
 </body>
 </html>

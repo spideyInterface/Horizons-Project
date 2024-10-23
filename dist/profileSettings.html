@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <meta content="width=device-width, initial-scale=1" name="viewport">
 </head>
-<body>
+  <body>
 
     <nav>
       <div class="nav_horizons">
@@ -147,28 +147,8 @@
 
   <script src="https://kit.fontawesome.com/f103464ccf.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="/aboutBlockchain.20ec8f84.js"></script>
+  <script src="/profileSettings.d709d64a.js"></script>
 
-  <script>/* Functionality for toggling navbar menu in responsive design */ let menuList = document.querySelector("#menuList");
-menuList.style.maxHeight = "0px";
-function menuToggle() {
-    if (menuList.style.maxHeight == "0px") menuList.style.maxHeight = "200px";
-    else menuList.style.maxHeight = "0px";
-}
-//functionality for changing profile pic
-//let profilePic = document.querySelector('#profile-settings-image');
-//let profileUploadBtn = document.querySelector('#profile-input-button');
-//profileUploadBtn.onChange = function(){
-//profilePic.src = URL.createObjectURL(profileUploadBtn.files[0]);
-//}
-//functionality for changing profile pic
-let profilePic = document.querySelector("#profile-image");
-let profileUploadBtn = document.querySelector("#profile-input-file");
-profileUploadBtn.onChange = function() {
-    profilePic.src = URL.createObjectURL(profileUploadBtn.files[0]);
-};
-
-</script>
-
-
-<script src="/profileSettings.85232aa0.js"></script></body>
+  <script src="/profileSettings.85232aa0.js"></script></body>
 </html>

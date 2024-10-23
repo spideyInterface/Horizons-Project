@@ -257,38 +257,10 @@
   </footer>
 
 
-<script src="https://kit.fontawesome.com/f103464ccf.js" ></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-
-/* Functionality for toggling navbar menu in responsive design */
-let menuList = document.querySelector('#menuList');
-menuList.style.maxHeight = "0px";
-
-function menuToggle(){
-  if(menuList.style.maxHeight == "0px")
-    {
-      menuList.style.maxHeight = "200px";
-    }
-    else{
-      menuList.style.maxHeight = "0px";
-    }
-}
-
-//functionality for turning submit button to red after clicked
-let contactSub = document.querySelector('#contact_submit_button');
-let contactSubPara = document.querySelector('#contact_submit_message');
-
-contactSub.addEventListener('click', function contactSubChange(){
-  this.style.backgroundColor = 'red';
-  this.textContent = 'SUBMITTED';
-
-  contactSubPara.classList.add('para_active');
-
-})
-
-
-</script>
+  <script src="https://kit.fontawesome.com/f103464ccf.js" ></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../js/contact.js"></script>
+  <script src="../js/navBar.js"></script>
 
 </body>
 </html>

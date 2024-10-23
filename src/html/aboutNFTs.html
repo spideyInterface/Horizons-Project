@@ -10,26 +10,26 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <title>Article | What are NFTs</title>
 </head>
-<body>
+  <body>
 
-  <nav>
-    <div class="nav_horizons">
-      <h4><a href="index.html">HORIZONS</a></h4>
-    </div>
-    <ul class="nav_links" id="menuList">
-      <li><a href="about.html">ABOUT</a></li>
-      <li><a href="blog.html">MEDIA</a></li>
-      <li><a href="collectionPage.html">COLLECTION</a></li>
-      <li><a href="mint.html">MINT</a></li>
-      <li><a href="connectWallets.html">WALLET</a></li>
-      <li><a href="contact.html">CONTACT</a></li>
-      <li><a href="profile.html">PROFILE</a></li>
-    </ul>
-    <div class="nav_links_close">
-      <i class="fa-solid fa-bars fa-lg" style="color: #74C0FC;" 
-      onclick="menuToggle()" ></i>
-    </div>
-  </nav>
+    <nav>
+      <div class="nav_horizons">
+        <h4><a href="index.html">HORIZONS</a></h4>
+      </div>
+      <ul class="nav_links" id="menuList">
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="blog.html">MEDIA</a></li>
+        <li><a href="collectionPage.html">COLLECTION</a></li>
+        <li><a href="mint.html">MINT</a></li>
+        <li><a href="connectWallets.html">WALLET</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="profile.html">PROFILE</a></li>
+        </ul>
+      <div class="nav_links_close">
+        <i class="fa-solid fa-bars fa-lg" style="color: #74C0FC;" 
+        onclick="menuToggle()" ></i>
+      </div>
+    </nav>
 
   <section class="article">
     <div class="article_box">
@@ -389,22 +389,7 @@
 
   <script src="https://kit.fontawesome.com/f103464ccf.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script>
-
-  /*Function for toggling menu*/
-let menuList = document.querySelector('#menuList');
-  menuList.style.maxHeight = "0px";
-
-  function menuToggle(){
-    if(menuList.style.maxHeight == "0px")
-      {
-        menuList.style.maxHeight = "200px";
-      }
-      else{
-        menuList.style.maxHeight = "0px";
-      }
-  }
-  </script>
+  <script src="../js/navBar.js"></script>
   
-</body>
+  </body>
 </html>

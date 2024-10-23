@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
-<body>
+  <body>
 
     <nav>
       <div class="nav_horizons">
@@ -119,12 +119,18 @@
           </div>
           <div class="footer_box_top_right">
             <ul>
-              <li><a href="#"><i class="fa-brands fa-instagram fa-lg" style="color: #74C0FC;"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-meta fa-lg" style="color: #74C0FC;"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-x-twitter fa-lg" style="color: #74C0FC;"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-tiktok fa-lg" style="color: #74C0FC;"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-youtube fa-lg" style="color: #74C0FC;"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-linkedin-in fa-lg" style="color: #74C0FC;"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram fa-lg" 
+                style="color: #74C0FC;"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-meta fa-lg" 
+                style="color: #74C0FC;"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-x-twitter fa-lg" 
+                style="color: #74C0FC;"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-tiktok fa-lg" 
+                style="color: #74C0FC;"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-youtube fa-lg" 
+                style="color: #74C0FC;"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-linkedin-in fa-lg" 
+                style="color: #74C0FC;"></i></a></li>
             </ul>
           </div>
         </div>
@@ -151,41 +157,8 @@
 
   <script src="https://kit.fontawesome.com/f103464ccf.js" ></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../js/navBar.js"></script>
+  <script src="../js/profileSettings.js"></script>
 
-  <script>
-
-  /* Functionality for toggling navbar menu in responsive design */
-  let menuList = document.querySelector('#menuList');
-  menuList.style.maxHeight = "0px";
-
-  function menuToggle(){
-    if(menuList.style.maxHeight == "0px")
-      {
-        menuList.style.maxHeight = "200px";
-      }
-      else{
-        menuList.style.maxHeight = "0px";
-      }
-  }
-
-  //functionality for changing profile pic
-  //let profilePic = document.querySelector('#profile-settings-image');
-  //let profileUploadBtn = document.querySelector('#profile-input-button');
-
-  //profileUploadBtn.onChange = function(){
-    //profilePic.src = URL.createObjectURL(profileUploadBtn.files[0]);
-  //}
-
-    //functionality for changing profile pic
-    let profilePic = document.querySelector('#profile-image');
-    let profileUploadBtn = document.querySelector('#profile-input-file');
-
-    profileUploadBtn.onChange = function(){
-    profilePic.src = URL.createObjectURL(profileUploadBtn.files[0]);
-  }
-
-  </script>
-
-
-</body>
+  </body>
 </html>
