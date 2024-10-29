@@ -1,0 +1,194 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fjalla+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/about.b10d73a7.css">
+    <title>Blog</title>
+</head>
+<body>
+
+    <nav>
+        <div class="logoName"><h3> HORIZONS</h3></div>
+          <menu class="MainMenu">
+            <li><a href="http://127.0.0.1:5500/HorizonsHome/HorizonsHome.html">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COLLECTIONS</a></li>
+            <li><a href="">CONTACT</a></li>
+            <li><a href="">GALLEY</a></li>
+            <li><a href="">CREATE</a></li>
+            <li><a href="">WALLET</a></li>
+            <div class="closeMenu"><i class="fa-solid fa-x fa-xl"></i></div>
+          </menu>
+      </nav>
+
+    <header>
+        <div class="blog_box">
+            <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" class="" height="500" width="900">
+            <h1>BLOG</h1>
+            <p>Keep up to date with some of our news articles</p>
+        </div>
+    </header>
+
+    <section>
+
+      <div class="article_intro">
+        <div class="article_intro_left">
+          <h3>Horizons announces new Beams update</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad architecto quisquam cum asperiores quidem distinctio veritatis necessitatibus esse dicta molestias, voluptatibus earum velit. Blanditiis aspernatur dolorem consectetur ea aliquam aperiam!</p>
+          <a href="">Read more</a>
+        </div>
+        <div class="article_intro_right">
+          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" class="">
+        </div>
+      </div>
+
+        <div class="article_box">
+
+            <article>
+                <small>June 23rd, 2024 <span>by: Ernesto Guidos</span></small>
+                <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="articleBoxImg" class="" width="400">
+                <h4>Horizons new collection announcement</h4>
+                <p>Learn all about Horizons new collection!</p>
+                <a href="">Read</a>
+            </article>
+
+            <article>
+                <small>June 23rd, 2024 <span>by: Ernesto Guidos</span></small>
+                <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="articleBoxImg" class="" width="400">
+                <h4>Horizons new collection announcement</h4>
+                <p>Learn all about Horizons new collection!</p>
+                <a href="">Read</a>
+              </article>
+
+            <article>
+                <small>June 23rd, 2024 <span>by: Ernesto Guidos</span></small>
+                <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="articleBoxImg" class="" width="400">
+                <h4>Horizons new collection announcement</h4>
+                <p>Learn all about Horizons new collection!</p>
+                <a href="">Read</a>
+              </article>
+
+            <article>
+                <small>June 23rd, 2024 <span>by: Ernesto Guidos</span></small>
+                <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="articleBoxImg" class="" width="400">
+                <h4>Horizons new collection announcement</h4>
+                <p>Learn all about Horizons new collection!</p>
+                <a href="">Read</a>
+              </article>
+
+            <article>
+                <small>June 23rd, 2024 <span>by: Ernesto Guidos</span></small>
+                <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="articleBoxImg" class="" width="400">
+                <h4>Horizons new collection announcement</h4>
+                <p>Learn all about Horizons new collection!</p>
+                <a href="">Read</a>
+              </article>
+
+            <article>
+                <small>June 23rd, 2024 <span>by: Ernesto Guidos</span></small>
+                <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="articleBoxImg" class="" width="400">
+                <h4>Horizons new collection announcement</h4>
+                <p>Learn all about Horizons new collection!</p>
+                <a href="">Read</a>
+              </article>
+
+            <article>
+                <small>June 23rd, 2024 <span>by: Ernesto Guidos</span></small>
+                <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="articleBoxImg" class="" width="400">
+                <h4>Horizons new collection announcement</h4>
+                <p>Learn all about Horizons new collection!</p>
+                <a href="">Read</a>
+              </article>
+
+            <article>
+                <small>June 23rd, 2024 <span>by: Ernesto Guidos</span></small>
+                <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="articleBoxImg" class="" width="400">
+                <h4>Horizons new collection announcement</h4>
+                <p>Learn all about Horizons new collection!</p>
+                <a href="">Read</a>
+              </article>
+
+            <article>
+                <small>June 23rd, 2024 <span>by: Ernesto Guidos</span></small>
+                <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="articleBoxImg" class="" width="400">
+                <h4>Horizons new collection announcement</h4>
+                <p>Learn all about Horizons new collection!</p>
+                <a href="">Read</a>
+            </article>
+
+              <article>
+                <small>June 23rd, 2024 <span>by: Ernesto Guidos</span></small>
+                <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="articleBoxImg" class="" width="400">
+                <h4>Horizons new collection announcement</h4>
+                <p>Learn all about Horizons new collection!</p>
+                <a href="">Read</a>
+              </article>
+
+              <a href="" class="loadMore">Load More..../</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_box">
+
+            <div class="footer_box_social">
+                <h3>HORIZONS</h3>
+                <p>
+                Explore intuitive technology and art built and created with
+                ingenuity and tenacity. Horizons offers users a world where both
+                technologically savvy and creative minded people a place to call
+                home
+                </p>
+
+                <div class="footer_social">
+                  <a href="" class=""><i class="fa-brands fa-instagram fa-2xl" style="color: #b197fc"></i></a>
+                  <a href="" class=""><i class="fa-brands fa-github fa-2xl" style="color: #520f70"></i></a>
+                  <a href="" class=""><i class="fa-brands fa-discord fa-2xl" style="color: #adbc9a"></i></a>
+                  <a href="" class=""><i class="fa-brands fa-reddit fa-2xl" style="color: #ec9e69"></i></a>
+                  <a href="" class=""><i class="fa-brands fa-meta fa-2xl" style="color: #3f1ded"></i></a>
+                </div>
+              </div>
+
+              <div class="footer_box_explore">
+                <h3>Explore</h3>
+                <a href="" class="">Collection</a>
+                <a href="" class="">Search</a>
+                <a href="" class="">Author Profile</a>
+                <a href="" class="">Account Settings</a>
+                <a href="" class="">Connect Wallet</a>
+              </div>
+
+              <div class="footer_box_help">
+                <h3>Help Center</h3>
+            <a href="http://127.0.0.1:5500/About/About.html" class="">About</a>
+            <a href="http://127.0.0.1:5500/Contact/Contact.html" class="">Contact Us</a>
+            <a href="http://127.0.0.1:5500/LogIn/LogIn.html" class="">Sign In</a>
+            <a href="http://127.0.0.1:5500/SignUp/SignUp.html" class="">Sign Up</a>
+            <a href="http://127.0.0.1:5500/Subscription/Subscription.html" class="">Subscription</a>
+              </div>
+
+              <div class="subscribe2">
+                <h3>Subscribe</h3>
+            <div class="subscribe2_box">
+              <input type="email" placeholder="Enter your email">
+            </div>
+            <div class="subscribe2_box_info">
+              <p>Discover, buy, sell, and mint digital art and collectibles</p>
+            </div>
+          </div>
+
+        </div>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/f103464ccf.js"></script>
+
+    <script>
+</script>
+<script src="/blog.3f933cde.js"></script></body>
+</html>

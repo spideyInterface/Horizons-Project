@@ -1,0 +1,224 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/about.b10d73a7.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fjalla+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+
+  </head>
+  <body>
+
+    <nav>
+      <div class="logoName"><h3>HORIZONS</h3></div>
+      <div class="openMenu"><i class="fa-solid fa-bars fa-xl"></i></div>
+      <menu class="MainMenu">
+        <li><a href="http://127.0.0.1:5500/HorizonsHome/HorizonsHome.html">HOME</a></li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">COLLECTIONS</a></li>
+        <li><a href="">CONTACT</a></li>
+        <li><a href="">GALLEY</a></li>
+        <li><a href="">CREATE</a></li>
+        <li><a href="">WALLET</a></li>
+        <div class="closeMenu"><i class="fa-solid fa-x fa-xl"></i></div>
+      </menu>
+    </nav>
+
+    <main class="aboutHorizons">
+
+      <div class="aboutHorizons_box_header">
+        <h4>Learn more</h4>
+        <h1>What is Horizons?</h1>
+      </div>
+
+    <section class="aboutHorizons_box">
+        <div class="aboutHorizons_box_box">
+          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="BlockchainImage" class="aboutNft_box_whatIsNft">
+          <h1 class="aboutHorizons_box_title">Horizons Basics</h1>
+          <p class="aboutHorizons_box_para">
+         I love art. Simple and straightforward. And I always have. I grew up in
+        a very artistic and creative family with my mother and grandmother being
+        the center of it all. I remember sitting beside my mother every week or
+        so wathching her paint and draw, and just being fascinated by every
+        stroke, how she would blend colors, what brushes she would use, the mess
+        she would make and how her hands would be a colorful mess after she was
+        done creating a beautiful painting after hours of work. I remember
+        watching my grandmother make jewelry whenever we would go visit her on
+        the weekends, and her showing me her collection of vinyl records and my
+        grandfathers retro posters. I remember looking forward to my art classes
+        while I was in school, and exceling in these classes and getting my
+        teachers and classmates attention with the drawing I made, or the
+        ceramic project I somehow managed to concoct. I remember always be so
+        fascincated by color schemes, architectural designs, the shape and
+        silouhettes of clothing, the interior design of rooms and buildings, the
+        makeup people would wear, the jewelry I would see on wrists and necks,
+        the code I would see a programmer develop, and the list goes on. I have
+        always been a creative minded individual and nothing has changed as art
+        and creativity is a part of who I am and how I go about life. It is not
+        a conscious or pretentious decision, it is just how it is. But I am not
+        the only one. I am a grain in the sahara desert. In this world, lies
+        community and a sense of belonging and something that brings us
+        together. That something is present amongst all walks of life whether
+        natural or artificial, created or as is. And that is art.
+          </p>
+        </div>
+
+        <div class="aboutHorizons_box_box">
+          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="BlockchainDiagram1" class="whatIsNftImg">
+          <h1 class="aboutHorizons_box_title">Why was Horizons created?</h1>
+          <p class="aboutHorizons_box_para">
+           Back in 2020, I was like many people in the world and was taken back by
+        this new phenomenon known as Blockchain and Cryptocurrency. These two
+        concepts and technologies completely took the workd by storm and was all
+        over headlines, news, commercials, social media, financial outlets,
+        campuses, offices, and it goes on and on. The buzz of the next new wave
+        of technology was something hard to ignore, and along with my love for
+        art, I always had a appreciation for good and useful technology, so I
+        decided to delve in. And immediately, I was fascinated and hooked. I
+        became extremely interested and invested in learning about Blockchain,
+        what it is, how it works, what it can be used for etc and delved into
+        many interesting concepts and projects(Ethereum being the big one). All
+        of a sudden this concept of NFTs reached the surface and completely
+        exploded in society, and once I found out what it was, I was like a kid
+        in a candy store!
+          </p>
+          <p class="aboutHorizons_box_para">
+            See I absoutely love and adore digital art and animation. It has always
+        been a passion of mine and its probably my favorite form of art there
+        is. So when I found out that this new technology of NFTs can bridge the
+        world between not only digital art, but art, assets and collectibles as
+        a whole, my mind was blown. I went into a NFT rabbit hole and took it
+        from there. Fast forward to the present, I began my journey as a
+        Blockchain Developer and what better project for me to make than an NFT
+        Marketplace? And here we are. Simply put, Horizons was created as an
+        extension of my love for art and technology, and a way for me to
+        showcase such to the world, whether big or small. And it's fun too...
+          </p>
+        </div>
+
+        <div class="aboutHorizons_box_box">
+          <h1 class="aboutHorizons_box_title">The core of it</h1>
+          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="BlockchainDiagram2" class="whatIsBlockchainImg">
+          <p class="aboutHorizons_box_para">
+           Horizons is an NFT marketplace that is built on top of the Sepolia
+        Blokcchain Network, and is a place where users can mint, buy, sell, and
+        explore various forms/types of NFTs. Horizons allows artists, investors,
+        and creators to have creative and financial freedom, while giving its
+        users control and authority over their own work or investments. Horizons
+        welcomes users from all backgrounds and parts of the world, as well as
+        welcoming expansion and growth. Horizons is not just meant to be a
+        marketplace, but a community that users cannot wait to step into.
+          </p>           
+        </div>
+
+        <div class="aboutHorizons_box_box">
+          <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="ConsensusImage1" class="whatIsNftImg">
+          <h1 class="aboutHorizons_box_title">Inspirations</h1>
+              <p class="aboutHorizons_box_para">
+        I did not just want to copy other NFT Marketplaces and create a
+        application that looked and felt very similar to others within this
+        industry. Like all forms of art, it is a personal telling of your
+        personality and ideas that you possess, and the stories that follow
+        them. By taking this approach, I created a application and Marketplace
+        that is a extension of my personality and the layout of my creativity
+        and well....my style!.
+      </p>
+      <p class="aboutHorizons_box_para">
+        Horizons takes inspiration from the opulence and richness of luxurious
+        color palettes and designs, while advancing on contemporary and avant
+        garde layouts with a animated atmosphere, while still embracing bright
+        and vibrant colors. I wanted to make Horizons feel like your eyes were
+        walking through a precious and beautiful art gallery in a animated and
+        interactive digital world. Sharp designs with neutral tones, 3d
+        transitions and animations, colorful and dark art displays and galleries
+        etc while being tied and in tune with the end goal of Horizons, which is
+        to allow creators and artists to explore the world of NFTs.
+      </p>
+      <p class="aboutHorizons_box_para">
+        No matter what background you come from, what art and colelctible style
+        or category you enjoy, no matter where you are in the world, you can
+        create and invest yourself within Horizons. No limits.
+      </p>
+      <div class="aboutHorizons_box_box">
+        <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="How its closing" class="whatIsNftImg">
+        <p class="aboutHorizons_box_para">
+          With all this information you have read, I hope you received a good
+          understanding as to what NFTs are and what they can potentially mean
+          for artists, investors, and creators alike. This is an ever changing
+          and evolving space as it is still a new technology and has so much
+          growth potential. On top of that, the communities in this space are
+          growing larger and more passionate about what is here and what is to
+          come. So don't be afraid to jump on board and potentially get in
+          early. If you are curious about some more subjects and topics about
+          Blockchain, feel free to check out Horizons other articles! Thank you!
+        </p>
+        <div class="aboutHorizons_box_author_para">
+          <p>Written by Ernesto Guidos, <span> May 15th, 2024</span></p>
+       </div>
+      </div>
+    </div></section>
+    </main> 
+
+
+
+<footer>
+  <div class="footer_box">
+
+    <div class="footer_box_social">
+        <h3>HORIZONS</h3>
+        <p>
+        Explore intuitive technology and art built and created with
+        ingenuity and tenacity. Horizons offers users a world where both
+        technologically savvy and creative minded people a place to call
+        home
+        </p>
+
+        <div class="footer_social">
+          <a href="" class=""><i class="fa-brands fa-instagram fa-2xl" style="color: #b197fc"></i></a>
+          <a href="" class=""><i class="fa-brands fa-github fa-2xl" style="color: #520f70"></i></a>
+          <a href="" class=""><i class="fa-brands fa-discord fa-2xl" style="color: #adbc9a"></i></a>
+          <a href="" class=""><i class="fa-brands fa-reddit fa-2xl" style="color: #ec9e69"></i></a>
+          <a href="" class=""><i class="fa-brands fa-meta fa-2xl" style="color: #3f1ded"></i></a>
+        </div>
+      </div>
+
+      <div class="footer_box_explore">
+        <h3>Explore</h3>
+        <a href="" class="">Collection</a>
+        <a href="" class="">Search</a>
+        <a href="" class="">Author Profile</a>
+        <a href="" class="">Account Settings</a>
+        <a href="" class="">Connect Wallet</a>
+      </div>
+
+      <div class="footer_box_help">
+        <h3>Help Center</h3>
+            <a href="http://127.0.0.1:5500/About/About.html" class="">About</a>
+            <a href="http://127.0.0.1:5500/Contact/Contact.html" class="">Contact Us</a>
+            <a href="http://127.0.0.1:5500/LogIn/LogIn.html" class="">Sign In</a>
+            <a href="http://127.0.0.1:5500/SignUp/SignUp.html" class="">Sign Up</a>
+            <a href="http://127.0.0.1:5500/Subscription/Subscription.html" class="">Subscription</a>
+      </div>
+
+      <div class="subscribe2">
+        <h3>Subscribe</h3>
+    <div class="subscribe2_box">
+      <input type="email" placeholder="Enter your email">
+    </div>
+    <div class="subscribe2_box_info">
+      <p>Discover, buy, sell, and mint digital art and collectibles</p>
+    </div>
+  </div>
+
+</div>
+</footer>
+
+    <script src="https://kit.fontawesome.com/f103464ccf.js"></script>
+  <script src="/aboutHorizons.5a567488.js"></script></body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile Page</title>
+<link rel="stylesheet" href="/about.b10d73a7.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://api.fontshare.com/v2/css?f[]=bespoke-serif@300,400,401,500,501,700&f[]=zodiak@100,101,300,301,400,401,700,701,800&f[]=lora@400,401,500,1&f[]=general-sans@200,300,400,500&f[]=amulya@300,400,500&f[]=synonym@300,400,500&f[]=expose@400,500,700,1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+</head>
+<body>
+
+    <nav>
+      <div class="logoName"><h3>HORIZONS</h3></div>
+        <div class="openMenu"><i class="fa-solid fa-bars fa-xl"></i></div>
+      <menu class="MainMenu">
+          <li><a href="/index.html">HOME</a></li>
+          <li><a href="/about.html">ABOUT</a></li>
+          <li><a href="">COLLECTIONS</a></li>
+          <li><a href="/contact.html">CONTACT</a></li>
+          <li><a href="">GALLEY</a></li>
+          <li><a href="">CREATE</a></li>
+          <li><a href="/connectWallets.html">WALLET</a></li>
+          <div class="closeMenu"><i class="fa-solid fa-x fa-xl"></i></div>
+      </menu>
+    </nav>
+    
+    <header class="account">
+      <div class="account_box">
+        <div class="account_box_left">
+          <img src="https://cdna.artstation.com/p/assets/images/images/034/457/364/large/shin-min-jeong-.jpg?1612345089" alt="account_box_upload" class="account_box_img_img" height="200" width="200">
+          <p class="account_box_img_para"><button>CHANGE IMAGE</button></p>
+        </div>
+
+        <div class="account_box_right">
+        <h1>PROFILE SETTINGS</h1>
+        <p>
+          You can set your prefered settings, display name, create profile
+          information and more
+        </p>
+        </div>
+      </div>
+    </header>
+
+    <section class="account_info">
+        <div class="account_info_box">
+            <div class="account_info_left">
+                <form action="submit" class="account_info_sLabel">
+                    <label for="username">USERNAME</label>
+                    <input type="text" id="fname" name="fname" value="Username">
+                </form>
+                <form action="submit" class="account_info_sLabel">
+                    <label for="email">EMAIL</label>
+                    <input type="text" id="femail" name="femail" value="EMAIL">
+                </form>
+                <form action="submit" class="account_info_sLabel">
+                    <label for="website">WEBSITE</label>
+                    <input type="text" id="fwebsite" name="fwebsite" value="Website">
+                </form>
+            </div>
+            <div class="account_info_box_center">
+                <form action="submit" class="account_info_description">
+                    <label for="description">DESCRIPTION</label>
+                    <textarea name="description" id="description" cols="100" rows="20">Describe Yourself</textarea>
+                </form>
+            </div>
+            <div class="account_info_right">
+                <form action="submit" class="account_info_sLabel">
+                    <label for="instagram">INSTAGRAM</label>
+                    <input type="text" id="socialI" name="socialI" value="Instagram">
+                </form>
+                <form action="submit" class="account_info_sLabel">
+                    <label for="instagram">GITHUB</label>
+                    <input type="text" id="socialI" name="socialI" value="GitHub">
+                </form>
+                <form action="submit" class="account_info_sLabel">
+                    <label for="instagram">REDDIT</label>
+                    <input type="text" id="socialI" name="socialI" value="Reddit">
+                </form>
+                <form action="submit" class="account_info_sLabel">
+                    <label for="instagram">LINKEDIN</label>
+                    <input type="text" id="socialI" name="socialI" value="LinkeDin">
+                </form>
+            </div>
+        </div>
+        <div class="account_info_upload">
+            <div class="account_info_upload_box">
+                <h3>DONE?</h3>
+                <button>UPLOAD</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+      <div class="footer_box">
+          <div class="footer_box_social">
+          <h3>HORIZONS</h3>
+          <p>
+          Explore intuitive technology and art buitl and created with
+          ingenuity and tenacity. Horizons offers users a world where both
+          technologically savvy and creative minded people a place to call
+          home
+          </p>
+      <div class="footer_social">
+
+          <a href="" class=""><i class="fa-brands fa-instagram fa-2xl" style="color: #b197fc"></i></a>
+
+          <a href="" class=""><i class="fa-brands fa-github fa-2xl" style="color: #520f70"></i></a>
+
+          <a href="" class=""><i class="fa-brands fa-discord fa-2xl" style="color: #adbc9a"></i></a>
+
+          <a href="" class=""><i class="fa-brands fa-reddit fa-2xl" style="color: #ec9e69"></i></a>
+
+          <a href="" class=""><i class="fa-brands fa-meta fa-2xl" style="color: #3f1ded"></i></a>
+
+          </div>
+      </div>
+
+      <div class="footer_box_explore">
+          <h3>Explore</h3>
+          <a href="/collectionPage.html" class="">Collection</a>
+          <a href="" class="">Search</a>
+          <a href="/profile.html" class="">Author Profile</a>
+          <a href="/profileSettings.html" class="">Account Settings</a>
+          <a href="/connectWallets.html" class="">Connect Wallet</a>
+      </div>
+      <div class="footer_box_help">
+          <h3>Help Center</h3>
+          <a href="/about.html" class="">About</a>
+          <a href="/contact.html" class="">Contact Us</a>
+          <a href="/login.html" class="">Sign In</a>
+          <a href="/signup.html" class="">Sign Up</a>
+          <a href="" class="">Subscription</a>
+      </div> 
+      <div class="subscribe2">
+          <h3>Subscribe</h3>
+      <div class="subscribe2_box">
+          <input type="email" placeholder="Enter your email">
+      </div>
+      <div class="subscribe2_box_info">
+          <p>Discover, buy, sell, and mint digital art and collectibles</p>
+      </div>
+      </div>
+      </div>
+  </footer>
+
+<script src="https://kit.fontawesome.com/f103464ccf.js"></script>
+<script src="/profileSettings.85232aa0.js"></script></body>
+</html>

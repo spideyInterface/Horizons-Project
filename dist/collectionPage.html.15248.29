@@ -1,0 +1,194 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://api.fontshare.com/v2/css?f[]=bespoke-serif@300,400,401,500,501,700&f[]=zodiak@100,101,300,301,400,401,700,701,800&f[]=lora@400,401,500,1&f[]=general-sans@200,300,400,500&f[]=amulya@300,400,500&f[]=synonym@300,400,500&f[]=expose@400,500,700,1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<link rel="stylesheet" href="/about.b10d73a7.css">
+<title>Collection Page</title>
+</head>
+<body>
+
+    <nav>
+        <div class="logoName"><h3>HORIZONS</h3></div>
+            <div class="openMenu"><i class="fa-solid fa-bars fa-xl"></i></div>
+            <menu class="MainMenu">
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COLLECTIONS</a></li>
+            <li><a href="/contact.html">CONTACT</a></li>
+            <li><a href="">GALLEY</a></li>
+            <li><a href="">CREATE</a></li>
+            <li><a href="/connectWallets.html">WALLET</a></li>
+            <div class="closeMenu"><i class="fa-solid fa-x fa-xl"></i></div>
+        </menu>
+    </nav>
+
+    <header class="collection_header">
+        <h1>Hi there</h1>
+    </header>
+
+    <main class="collection">
+        <div class="collection_box">
+            <div class="collection_box_left">
+                <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" class="" height="150" width="150">
+                <h3>Collection Name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus porro quidem distinctio rerum eveniet dolore eligendi ab? Eveniet, nihil. Nesciunt deleniti tempora sint architecto nobis eveniet eos natus eaque atque.</p>
+                <h4>Current Bid:</h4>
+                <div class="collection_box_left_bid">
+                    <div class="collection_bid_box">
+                        <h5>Days:</h5>
+                        <span>5</span>
+                    </div>
+                    <div class="collection_bid_box">
+                        <h5>Hours:</h5>
+                        <span>10</span>
+                    </div>
+                    <div class="collection_bid_box">
+                        <h5>Minutes:</h5>
+                        <span>55</span>
+                    </div>
+                    <div class="collection_bid_box">
+                        <h5>Seconds:</h5>
+                        <span>23</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collection_box_right">
+                <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="" class="" height="400" width="400">
+            </div>
+        </div>
+    </main>
+
+    <section class="collection_info">       
+        <div class="collection_box_center_para">
+            <h4>ABOUT</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit impedit sed aspernatur? Consequatur tempora obcaecati, quas eos inventore nam illo rerum officia molestiae quia id ex. Atque cupiditate vero nesciunt?Lorem, ipsum dolor sit amet consectetur adipisicing elit. In modi nulla dignissimos ipsum facere iste cum quasi ipsa magnam ducimus suscipit, dolorum doloremque voluptate tempore veniam corporis, mollitia, blanditiis asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias blanditiis quasi voluptates perspiciatis nostrum sunt, aliquam voluptatibus velit voluptatum quo possimus corporis hic nulla deserunt omnis beatae optio, eligendi excepturi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam veniam impedit suscipit tempore quia, excepturi distinctio incidunt maxime explicabo esse repellat numquam. Sequi maiores quis consequatur sapiente aspernatur laborum aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam molestiae alias quas voluptatem, possimus libero aspernatur perferendis impedit vero sint, placeat voluptas! Eius nobis beatae, veritatis dolorem corrupti mollitia voluptatem!LoremLo
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, at dignissimos. Quidem sequi voluptatibus at voluptas incidunt odit, itaque quae, aut optio consequuntur magnam? Neque minima fuga iste dolores explicabo.
+            </p>
+        </div>
+
+        <div class="collection_box_center_stats">
+            <div class="collection_box_center_stats_box">
+            <div class="collection_stats_box">
+                <h5>Floor Price:</h5>
+                <p>1.5ETH</p>
+            </div>
+            <div class="collection_stats_box">
+                <h5># Of NFTs:</h5>
+                <p>500</p>
+            </div>
+            <div class="collection_stats_box">
+                <h5>Royalty:</h5>
+                <p>5%</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="collection_about_bottom">
+        <div class="collection_about_bottom_box">
+            <div class="collection_about_bottom_box_left">
+                <h3>Ugly and Beautiful</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores iure exercitationem fuga, et rem praesentium corrupti eius nobis architecto maxime. Quaerat ratione explicabo error. Recusandae sunt inventore ipsa consectetur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quam maiores, perspiciatis natus fugit non dolores ipsa architecto sunt adipisci repellendus ipsum similique quia nesciunt at molestias placeat quas omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa eligendi non dolore vel, accusamus error tempore fugiat nostrum accusantium suscipit, ratione quasi rerum magni sunt a earum culpa! Voluptates, quasi.</p>
+            </div>
+            <div class="collection_about_bottom_box_right">
+                <h3>Tolerable and Acceting</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi maiores iure exercitationem fuga, et rem praesentium corrupti eius nobis architecto maxime. Quaerat ratione explicabo error. Recusandae sunt inventore ipsa consectetur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quam maiores, perspiciatis natus fugit non dolores ipsa architecto sunt adipisci repellendus ipsum similique quia nesciunt at molestias placeat quas omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa eligendi non dolore vel, accusamus error tempore fugiat nostrum accusantium suscipit, ratione quasi rerum magni sunt a earum culpa! Voluptates, quasi.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer_box">
+            <div class="footer_box_social">
+            <h3>HORIZONS</h3>
+            <p>
+            Explore intuitive technology and art built and created with
+            ingenuity and tenacity. Horizons offers users a world where both
+            technologically savvy and creative minded people a place to call
+            home
+            </p>
+        <div class="footer_social">
+
+            <a href="" class=""><i class="fa-brands fa-instagram fa-2xl" style="color: #b197fc"></i></a>
+
+            <a href="" class=""><i class="fa-brands fa-github fa-2xl" style="color: #520f70"></i></a>
+
+            <a href="" class=""><i class="fa-brands fa-discord fa-2xl" style="color: #adbc9a"></i></a>
+
+            <a href="" class=""><i class="fa-brands fa-reddit fa-2xl" style="color: #ec9e69"></i></a>
+
+            <a href="" class=""><i class="fa-brands fa-meta fa-2xl" style="color: #3f1ded"></i></a>
+
+            </div>
+        </div>
+
+        <div class="footer_box_explore">
+            <h3>Explore</h3>
+            <a href="" class="">Collection</a>
+            <a href="" class="">Search</a>
+            <a href="" class="">Author Profile</a>
+            <a href="" class="">Account Settings</a>
+            <a href="" class="">Connect Wallet</a>
+        </div>
+        <div class="footer_box_help">
+            <h3>Help Center</h3>
+            <a href="/about.html" class="">About</a>
+            <a href="/contact.html" class="">Contact Us</a>
+            <a href="/login.html" class="">Sign In</a>
+            <a href="/signup.html" class="">Sign Up</a>
+            <a href="http://127.0.0.1:5500/Subscription/Subscription.html" class="">Subscription</a>
+        </div> 
+        <div class="subscribe2">
+            <h3>Subscribe</h3>
+        <div class="subscribe2_box">
+            <input type="email" placeholder="Enter your email">
+        </div>
+        <div class="subscribe2_box_info">
+            <p>Discover, buy, sell, and mint digital art and collectibles</p>
+        </div>
+        </div>
+        </div>
+    </footer>
+    
+<script src="https://kit.fontawesome.com/f103464ccf.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 4,
+    slidesPerGroup: 4,
+    spaceBetween: 30,
+    cssMode: true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1
+        },
+        640: {
+            slidesPerView: 2,
+            spaceBetween: 10
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 10
+        },
+        1024: {
+            slidesPerView: 4,
+            spaceBetween: 20
+        }
+    }
+});
+
+</script>
+<script src="/collectionPage.20b16e5f.js"></script></body>
+</html>
