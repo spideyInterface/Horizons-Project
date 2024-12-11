@@ -1,18 +1,3 @@
-/* Functionality for toggling navbar menu in responsive design */
-let menuList = document.querySelector('#menuList');
-menuList.style.maxHeight = "0px";
-
-function menuToggle(){
-  if(menuList.style.maxHeight == "0px")
-    {
-      menuList.style.maxHeight = "200px";
-    }
-    else{
-      menuList.style.maxHeight = "0px";
-    }
-}
-
-
 var swiper = new Swiper(".about_whoWeAre_box_swiper", {
     slidesPerView: 5,
     spaceBetween: 30,
@@ -93,86 +78,88 @@ var swiper = new Swiper(".about_whatWeValue_box_bottom_swiper", {
   });
 
 
+
 //functionality for who we are section with clickable tabs
 let aboutTab = document.querySelectorAll('.about_whoWeAre_box_swiper_slider');
 let aboutContent = document.querySelectorAll('.about_whoWeAre_traits_swiper');
+let aboutPassion = document.querySelector('#aboutPassion');
+aboutPassion.style.display = 'block';
 
 aboutTab.forEach((tab, index)=>{
-  tab.addEventListener('click',()=>{
-    aboutTab.forEach(tab => {tab.classList.remove('active')});
-    tab.classList.add('active');
+  if(aboutPassion.style.display === 'block'){
+    tab.addEventListener('click', () => {
+      aboutPassion.style.display = '';
+      aboutTab.forEach(tab => {tab.classList.remove('active')});
+      tab.classList.add('active');
 
-    aboutContent.forEach(aboutContent => {aboutContent.classList.remove('active')});
-    aboutContent[index].classList.add('active');
-    //aboutContent[index].style.display = "block";
-  })
-})
+      aboutContent.forEach(aboutContent => {aboutContent.classList.remove('active')});
+      aboutContent[index].classList.add('active');
+      //aboutContent[index].style.display = "block";
+    })
+  } else {
+    aboutPassion.style.display = 'block';
+  }
+});
 
 
 //functionality for changing h3 in who we are top section when tabs get clicked
 let whoWeAreHeader = document.querySelector('#whoWeAreHeader');
 let whoWeAreParagraph = document.querySelector('#whoWeArePara');
+let whoWeAreTabTitle = document.querySelectorAll('about_whoWeAre_tab_title');
+let whoWeAreTabPara = document.querySelectorAll('about_whoWAre_traits_para');
 let whoWeAreTabHeader = document.querySelector('.about_whoWeAre_box_swiper_slider');
-let passionHeader = document.querySelector('#aboutPassionTab');
-let creativityHeader = document.querySelector('#aboutCreativityTab');
-let diversityHeader = document.querySelector('#aboutDiversityTab');
-let sustainabilityHeader = document.querySelector('#aboutSustainabilityTab');
-let innovationHeader = document.querySelector('#aboutInnovationTab');
 
-//Function for changing who we are header to Passion
-changePassionHeader();
-
-function changePassionHeader(){
-  passionHeader.addEventListener('click', ()=> {
-    whoWeAreHeader.textContent = 'PASSION';
-    whoWeAreParagraph.textContent ='Here at Horizons we are extremely passionate and comprehensive in how we handle our creativity and work ethic.'
-  })
+class WhoWeAre{
+  constructor(whoWeAreHeader, whoWeAreParagraph){
+    this.whoWeAreHeader = whoWeAreHeader;
+    this.whoWeAreParagraph = whoWeAreParagraph;
+  }
 }
 
+const whoWeAreSlider1 = new WhoWeAre (
+  'PASSION',
+  'Here at Horizons we are extremely passionate and comprehensive in how we handle our creativity and work ethic.'
+);
 
-//Function for changing who we are header to Creativity
-changeCreativityHeader();
+const whoWeAreSlider2 = new WhoWeAre (
+  'Creativity',
+  'Horizons is all about letting your imagination run wild, and exploring the world of art and technology.'
+);
 
-function changeCreativityHeader(){
-  creativityHeader.addEventListener('click', ()=> {
-    whoWeAreHeader.textContent = 'Creativity';
-    whoWeAreParagraph.textContent = 'Horizons is all about letting your imagination run wild, and exploring the world of art and technology.'
-  })
+const whoWeAreSlider3 = new WhoWeAre (
+  'DIVERSITY',
+  'We love including people of different backgrounds no matter yoru race, culture, sexual orientation, appearance etc.'
+);
+
+const whoWeAreSlider4 = new WhoWeAre (
+  'SUSTAINABILITY',
+  'We understand the significant impact our actions have on our planet, and this is why we create with ethical practices.'
+);
+
+const whoWeAreSlider5 = new WhoWeAre (
+  'Innovation',
+  'Innovation is a critical part of a successful society, both economically adn socially. And here, we welcome it with open arms.'
+);
+
+const whoWeAreArray = [
+  whoWeAreSlider1,
+  whoWeAreSlider2,
+  whoWeAreSlider3,
+  whoWeAreSlider4,
+  whoWeAreSlider5
+];
+
+function whoWeAreFunction(whoWeAreSlider){
+  whoWeAreHeader.textContent = whoWeAreSlider.whoWeAreHeader;
+  whoWeAreParagraph.textContent = whoWeAreSlider.whoWeAreParagraph;
 }
 
-
-//Function for changing who we are header to Diversity
-changeDiversityHeader();
-
-function changeDiversityHeader(){
-  diversityHeader.addEventListener('click', ()=> {
-    whoWeAreHeader.textContent = 'DIVERSITY';
-    whoWeAreParagraph.textContent = 'We love including people of different backgrounds no matter yoru race, culture, sexual orientation, appearance etc.'
+whoWeAreArray.forEach((whoSlider, index) => {
+  let whoWeAreHeading = document.querySelector(`#aboutTab${index + 1}`);
+  whoWeAreHeading.addEventListener('click', () => {
+    whoWeAreFunction(whoSlider);
   })
-}
-
-
-//Function for changing who we are header to Sustainability
-changeSustainabilityHeader();
-
-function changeSustainabilityHeader(){
-  sustainabilityHeader.addEventListener('click', ()=> {
-    whoWeAreHeader.textContent = 'SUSTAINABILITY';
-    whoWeAreParagraph.textContent = 'We understand the significant impact our actions have on our planet, and this is why we create with ethical practices.'
-  })
-}
-
-
-//Function for changing who we are header to Innovation
-changeInnovationHeader();
-
-function changeInnovationHeader(){
-  innovationHeader.addEventListener('click', ()=> {
-    whoWeAreHeader.textContent = 'Innovation';
-    whoWeAreParagraph.textContent = 'Innovation is a critical part of a successful society, both economically adn socially. And here, we welcome it with open arms.'
-  })
-}
-
+});
 
 
 //functionality for automatically changing image source for overview section
