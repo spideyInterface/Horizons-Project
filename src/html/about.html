@@ -26,8 +26,7 @@
       <li><a href="profile.html">PROFILE</a></li>
     </ul>
     <div class="nav_links_close">
-      <i class="fa-solid fa-bars fa-lg" style="color: #74C0FC;" 
-      onclick="menuToggle()" ></i>
+      <i class="fa-solid fa-bars fa-lg" style="color: #74C0FC;" id="menuHamburger"></i>
     </div>
   </nav>
 
@@ -161,23 +160,23 @@
       <div class="about_whoWeAre_box_swiper swiper mySwiper">
         <div class="about_whoWeAre_box_swiper_wrapper swiper-wrapper">
 
-          <div id="aboutPassionTab" class="about_whoWeAre_box_swiper_slider swiper-slide">
+          <div id="aboutTab1" class="about_whoWeAre_box_swiper_slider swiper-slide">
             <h4>PASSION</h4>
           </div>
 
-          <div id="aboutCreativityTab" class="about_whoWeAre_box_swiper_slider swiper-slide">
+          <div id="aboutTab2" class="about_whoWeAre_box_swiper_slider swiper-slide">
             <h4>CREATIVITY</h4>
           </div>
 
-          <div id="aboutDiversityTab" class="about_whoWeAre_box_swiper_slider swiper-slide">
+          <div id="aboutTab3" class="about_whoWeAre_box_swiper_slider swiper-slide">
             <h4>DIVERSITY</h4>
           </div>
 
-          <div id="aboutSustainabilityTab" class="about_whoWeAre_box_swiper_slider swiper-slide">
+          <div id="aboutTab4" class="about_whoWeAre_box_swiper_slider swiper-slide">
             <h4>SUSTAINABILITY</h4>
           </div>
 
-          <div id="aboutInnovationTab" class="about_whoWeAre_box_swiper_slider swiper-slide">
+          <div id="aboutTab5" class="about_whoWeAre_box_swiper_slider swiper-slide">
             <h4>INNOVATION</h4>
           </div>
 
@@ -186,20 +185,20 @@
       </div>
 
       <!--First row of traits slider on about us page-->
-      <div id="aboutPassion" class="about_whoWeAre_traits_swiper swiper mySwiper" style="display:block">
+      <div id="aboutPassion" class="about_whoWeAre_traits_swiper swiper mySwiper" >
         <div class="about_whoWeAre_traits_swiper_wrapper swiper-wrapper">
 
           <div class="about_whoWeAre_traits_swiper_slider swiper-slide">
-            <h4>LOVE FIRST</h4>
-            <p>Creating art is a profound expression of the human spirit, a vibrant way to channel emotions, 
+            <h4 class="about_whoWeAre_tab_title" id="about_whoWeAre_heading1">LOVE FIRST</h4>
+            <p class="about_whoWAre_traits_para" id="about_whoWeAre_para1">Creating art is a profound expression of the human spirit, a vibrant way to channel emotions, 
               thoughts, and experiences into tangible form. it serves as a bridge 
               to connect with others, evoke emotions, and 
               provoke thought. We give you freedom.</p>
           </div>
 
           <div class="about_whoWeAre_traits_swiper_slider swiper-slide">
-            <h4>GENUITY</h4>
-            <p>Being genuine means embracing and expressing your true self, free 
+            <h4 class="about_whoWeAre_tab_title" id="about_whoWeAre_heading2">GENUITY</h4>
+            <p class="about_whoWAre_traits_para" id="about_whoWeAre_para2">Being genuine means embracing and expressing your true self, free 
               from pretense or the fear of judgment. It involves honesty in your thoughts, 
               feelings, and actions, allowing you to connect deeply with others and foster 
               authentic relationships, and this what we value at Horizons.
@@ -207,16 +206,16 @@
           </div>
 
           <div class="about_whoWeAre_traits_swiper_slider swiper-slide">
-            <h4>COMPASSION</h4>
-            <p>Here at Horizons we practice compassion and empathy, as we believe it is 
+            <h4 class="about_whoWeAre_tab_title" id="about_whoWeAre_heading3">COMPASSION</h4>
+            <p class="about_whoWAre_traits_para" id="about_whoWeAre_para3">Here at Horizons we practice compassion and empathy, as we believe it is 
               a foundation part of not only the workplace, but life in general. 
               It involves understanding their feelings, offering support, and being there 
               in times of need. We value you.</p>
           </div>
 
           <div class="about_whoWeAre_traits_swiper_slider swiper-slide">
-            <h4>RESPECT</h4>
-            <p>Here at Horizons we practice compassion and empathy, as we believe it is 
+            <h4 class="about_whoWeAre_tab_title" id="about_whoWeAre_heading4">RESPECT</h4>
+            <p class="about_whoWAre_traits_para" id="about_whoWeAre_para4">Here at Horizons we practice compassion and empathy, as we believe it is 
               a foundation part of not only the workplace, but life in general. 
               It involves understanding their feelings, offering support, and being there 
               in times of need. We value you.</p>
@@ -528,6 +527,7 @@
 <script src="https://kit.fontawesome.com/f103464ccf.js" ></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="../js/about.js"></script>
+<script src="../js/navBar.js"></script>
 
 </body>
 </html>
