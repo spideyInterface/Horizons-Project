@@ -1,18 +1,3 @@
-/* Functionality for toggling navbar menu in responsive design */
-let menuList = document.querySelector('#menuList');
-menuList.style.maxHeight = "0px";
-
-function menuToggle(){
-if(menuList.style.maxHeight == "0px")
-  {
-    menuList.style.maxHeight = "200px";
-  }
-  else{
-  menuList.style.maxHeight = "0px";
-}
-}
-
-
 let slider = document.querySelectorAll(".nftCollectionBoxSlider");
 let output = document.querySelectorAll(".nftCollectionValue");
 output.innerHTML = slider.value;

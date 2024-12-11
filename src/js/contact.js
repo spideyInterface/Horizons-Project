@@ -1,11 +1,13 @@
-//functionality for turning submit button to red after clicked
-let contactSub = document.querySelector('#contact_submit_button');
-let contactSubPara = document.querySelector('#contact_submit_message');
+let submitFunction = () => {
+  let contactSub = document.querySelector('#contact_submit_button');
+  let contactSubPara = document.querySelector('#contact_submit_message');
 
-contactSub.addEventListener('click', function contactSubChange(){
-  this.style.backgroundColor = 'red';
-  this.textContent = 'SUBMITTED';
+  contactSub.addEventListener('click', () => {
+      contactSub.style.backgroundColor = 'red';
+      contactSub.textContent = 'Submitted';
+      contactSubPara.classList.add('para_active');
+      console.log('Message sent!');
+  })
+}
 
-  contactSubPara.classList.add('para_active');
-
-})
+submitFunction();

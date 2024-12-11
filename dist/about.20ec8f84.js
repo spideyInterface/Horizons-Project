@@ -15,4 +15,4 @@ const menuToggle = ()=>{
 };
 menuToggle();
 
-//# sourceMappingURL=aboutBlockchain.20ec8f84.js.map
+//# sourceMappingURL=about.20ec8f84.js.map
