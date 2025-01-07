@@ -26,7 +26,7 @@
         <li><a href="/profile.html">PROFILE</a></li>
       </ul>
       <div class="nav_links_close">
-        <i class="fa-solid fa-bars fa-lg" style="color: #74c0fc" onclick="menuToggle()"></i>
+        <i class="fa-solid fa-bars fa-lg" style="color: #74c0fc" id="menuHamburger"></i>
       </div>
     </nav>
 
@@ -124,9 +124,9 @@
               <div class="nftCollection_main_body_box_left_box">
                 <div class="nftCollection_main_body_box_left_box_top">
                   <h3>STATUS</h3>
-                  <i class="fa-solid fa-arrow-up-from-bracket fa-rotate-180 fa-sm"></i>
+                  <i class="fa-solid fa-arrow-up-from-bracket fa-rotate-180 fa-sm" id="nftCollection_dropDown_arrow1"></i>
                 </div>
-                <div class="nftCollection_main_body_box_left_box_bottom">
+                <div class="nftCollection_main_body_box_left_box_bottom" id="nftCollection_bottom_box1">
                   <ul>
                     <li>
                       <form action="#">
@@ -149,9 +149,9 @@
               <div class="nftCollection_main_body_box_left_box">
                 <div class="nftCollection_main_body_box_left_box_top">
                   <h3>SORT BY</h3>
-                  <i class="fa-solid fa-arrow-up-from-bracket fa-rotate-180 fa-sm"></i>
+                  <i class="fa-solid fa-arrow-up-from-bracket fa-rotate-180 fa-sm" id="nftCollection_dropDown_arrow2"></i>
                 </div>
-                <div class="nftCollection_main_body_box_left_box_bottom">
+                <div class="nftCollection_main_body_box_left_box_bottom" id="nftCollection_bottom_box2">
                   <ul>
                     <li>
                       <form action="">
@@ -174,9 +174,9 @@
               <div class="nftCollection_main_body_box_left_box">
                 <div class="nftCollection_main_body_box_left_box_top">
                   <h3>SEX</h3>
-                  <i class="fa-solid fa-arrow-up-from-bracket fa-rotate-180 fa-sm"></i>
+                  <i class="fa-solid fa-arrow-up-from-bracket fa-rotate-180 fa-sm" id="nftCollection_dropDown_arrow3"></i>
                 </div>
-                <div class="nftCollection_main_body_box_left_box_bottom">
+                <div class="nftCollection_main_body_box_left_box_bottom" id="nftCollection_bottom_box3">
                   <ul>
                     <li>
                       <form action="#">
@@ -199,9 +199,9 @@
               <div class="nftCollection_main_body_box_left_box">
                 <div class="nftCollection_main_body_box_left_box_top">
                   <h3>PRICE</h3>
-                  <i class="fa-solid fa-arrow-up-from-bracket fa-rotate-180 fa-sm"></i>
+                  <i class="fa-solid fa-arrow-up-from-bracket fa-rotate-180 fa-sm" id="nftCollection_dropDown_arrow4"></i>
                 </div>
-                <div class="nftCollection_main_body_box_left_box_bottom">
+                <div class="nftCollection_main_body_box_left_box_bottom" id="nftCollection_bottom_box4">
                   <ul>
                     <li>
                       <form action="#">
@@ -235,9 +235,9 @@
               <div class="nftCollection_main_body_box_left_box">
                 <div class="nftCollection_main_body_box_left_box_top">
                   <h3>BACKGROUND</h3>
-                  <i class="fa-solid fa-arrow-up-from-bracket fa-rotate-180 fa-sm"></i>
+                  <i class="fa-solid fa-arrow-up-from-bracket fa-rotate-180 fa-sm" id="nftCollection_dropDown_arrow5"></i>
                 </div>
-                <div class="nftCollection_main_body_box_left_box_bottom">
+                <div class="nftCollection_main_body_box_left_box_bottom" id="nftCollection_bottom_box5">
                   <ul>
                     <li>
                       <form action="#">
@@ -276,9 +276,9 @@
               <div class="nftCollection_main_body_box_left_box">
                 <div class="nftCollection_main_body_box_left_box_top">
                   <h3>JEWELRY</h3>
-                  <i class="fa-solid fa-arrow-up-from-bracket fa-rotate-180 fa-sm"></i>
+                  <i class="fa-solid fa-arrow-up-from-bracket fa-rotate-180 fa-sm" id="nftCollection_dropDown_arrow6"></i>
                 </div>
-                <div class="nftCollection_main_body_box_left_box_bottom">
+                <div class="nftCollection_main_body_box_left_box_bottom" id="nftCollection_bottom_box6">
                   <ul>
                     <li>
                       <form action="#">
@@ -305,9 +305,9 @@
               <div class="nftCollection_main_body_box_left_box">
                 <div class="nftCollection_main_body_box_left_box_top">
                   <h3>SKIN</h3>
-                  <i class="fa-solid fa-arrow-up-from-bracket fa-rotate-180 fa-sm"></i>
+                  <i class="fa-solid fa-arrow-up-from-bracket fa-rotate-180 fa-sm" id="nftCollection_dropDown_arrow7"></i>
                 </div>
-                <div class="nftCollection_main_body_box_left_box_bottom">
+                <div class="nftCollection_main_body_box_left_box_bottom" id="nftCollection_bottom_box7">
                   <ul>
                     <li>
                       <form action="#">
@@ -338,9 +338,9 @@
               <div class="nftCollection_main_body_box_left_box">
                 <div class="nftCollection_main_body_box_left_box_top">
                   <h3>HAIR</h3>
-                  <i class="fa-solid fa-arrow-up-from-bracket fa-rotate-180 fa-sm"></i>
+                  <i class="fa-solid fa-arrow-up-from-bracket fa-rotate-180 fa-sm" id="nftCollection_dropDown_arrow8"></i>
                 </div>
-                <div class="nftCollection_main_body_box_left_box_bottom">
+                <div class="nftCollection_main_body_box_left_box_bottom" id="nftCollection_bottom_box8">
                   <ul>
                     <li>
                       <form action="#">
@@ -873,6 +873,7 @@
   <script src="https://kit.fontawesome.com/f103464ccf.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="/collectionPage.2b44e51a.js"></script>
+  <script src="/about.20ec8f84.js"></script>
 
   <script src="/collectionPage.20b16e5f.js"></script></body>
 </html>
