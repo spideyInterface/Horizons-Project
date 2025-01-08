@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
   <body>
-    
+    <!--Navbar-->
     <nav>
       <div class="nav_horizons">
         <h4><a href="index.html">HORIZONS</a></h4>
@@ -29,23 +29,23 @@
         <i class="fa-solid fa-bars fa-lg" style="color: #74C0FC;" id="menuHamburger"></i>
       </div>
     </nav>
-    
+    <!--Header section for subscription page-->
     <header class="subscription_header">
       <div class="subscription_header_box">
         <div class="subscription_header_left">
           <h3>SUBSCRIPTION</h3>
           <h4>Want even more? Subscribe to one of our plans!</h4>
         </div>
-        <div class="subscription_header_right">
+        <figure class="subscription_header_right">
           <img src="https://images4.alphacoders.com/130/1303494.jpeg" alt="subscriptionImage" class="">
-        </div>
+        </figure>
       </div>
     </header>
-    
+    <!--Main body subscription section that contains plans-->
     <section class="subscription_main_body">
       <div class="subscription_main_body_box">
-    
-        <div class="subscription_main_body_box_box">
+        <!--Subscription plan 1-->
+        <article class="subscription_main_body_box_box">
           <h4>APPRENTICE</h4>
           <h5>PRICE:$5.99</h5>
           <ul>
@@ -55,9 +55,9 @@
             <li><p>Front of line access to conventions and events,</p></li>
           </ul>
           <button>PURCHASE</button>
-        </div>
-    
-        <div class="subscription_main_body_box_box">
+        </article>
+        <!--Subscription plan 2-->
+        <article class="subscription_main_body_box_box">
           <h4>MASTER</h4>
           <h5>PRICE:$15.99</h5>
           <ul>
@@ -68,9 +68,9 @@
             <li><p>Access to artist comission and custom art.</p></li>
           </ul>
           <button>PURCHASE</button>
-        </div>
-    
-        <div class="subscription_main_body_box_box">
+        </article>
+        <!--Subscription plan 3-->
+        <article class="subscription_main_body_box_box">
           <h4>OVERLORD</h4>
           <h5>PRICE:$30.99</h5>
           <ul>
@@ -82,18 +82,17 @@
             <li><p>Access to Horizons Academy Education.</p></li>
           </ul>
           <button>PURCHASE</button>
-        </div>
-    
+        </article>
       </div>
     </section>
-    
+    <!--Newsletter section-->
     <section class="media_newsletter">
       <div class="media_newsletter_box">
-
-        <div class="media_newsletter_box_left">
+        <!--Left section for newsletter that contains title-->
+        <header class="media_newsletter_box_left">
           <h3>JOIN OUR NEWSLETTER</h3>
-        </div>
-        
+        </header>
+        <!--Right section for newsletter that contains subscription form-->
         <div class="media_newsletter_box_right">
           <form action="/submit-form.php">
             <label for="newsletterEmail"></label>
@@ -101,10 +100,9 @@
             <input type="submit" id="emailNewsletterSubmit" value="SUBMIT">
           </form>
         </div>
-
       </div>
     </section>
-    
+    <!--Footer-->
     <footer>   
       <div class="footer_box">
         <!--Top section for footer that contains title and icons-->
@@ -146,33 +144,9 @@
     </footer>
     
   <script src="https://kit.fontawesome.com/f103464ccf.js" ></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>  
-  <script>
-    
-    /* Functionality for toggling navbar menu in responsive design */
-    let menuList = document.querySelector('#menuList');
-    menuList.style.maxHeight = "0px";
-    
-    function menuToggle(){
-      if(menuList.style.maxHeight == "0px")
-        {
-        menuList.style.maxHeight = "200px";
-      }
-      else{
-        menuList.style.maxHeight = "0px";
-        }
-      }
-    
-    
-    let slider = document.querySelectorAll(".nftCollectionBoxSlider");
-    let output = document.querySelectorAll(".nftCollectionValue");
-    output.innerHTML = slider.value;
-    
-    slider.oninput = function() {
-      output.innerHTML = this.value;
-    }
-    
-  </script> 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+  <script src="../js/navBar.js"></script>
+  <script src="../js/collectionPage.js"></script>
 
     </body>
 </html>
