@@ -29,7 +29,7 @@
             <i class="fa-solid fa-bars fa-lg" style="color: #74C0FC;" id="menuHamburger"></i>
         </div>
     </nav>
-
+    <!--Header section for minting page-->
     <header class="mint_header">
         <div class="mint_header_box">
             <h1>CREATE</h1>
@@ -38,103 +38,102 @@
             </p>
         </div>
     </header>
-
+    <!--Main body content section including uploading files, forms etc-->
     <section class="mint_main">
         <div class="mint_main_box">
-
-            <div class="mint_main_box_header">
+            <!--Header for uploading images-->
+            <header class="mint_main_box_header">
                 <h3>UPLOAD IMAGE, FILE, AND CONTENT</h3>
                 <p>PNG, SVG, MPEG, and JPEG supported.</p>
-            </div>
-
+            </header>
             <!--The main section of the minting page that users upload file and 
             give name, links etc-->
-            <div class="mint_main_box_upload">
+            <section class="mint_main_box_upload">
                 <div class="mint_main_box_upload_box">
                     <div class="mint_main_box_upload_box_input">
                         <input type="file" id="imageUpload" accept="images/*">
                     </div>
                 </div>
-            </div>
-
-            <div class="mint_main_box_upload_boxType1">
+            </section>
+            <!--Nft name input container-->
+            <section class="mint_main_box_upload_boxType1">
                 <label for="nftName">NFT NAME</label>
                 <input type="text" name="fname" id="nftName" value="NFT Name">
-            </div>
-
-            <div class="mint_main_box_upload_boxType1">
+            </section>
+            <!--External link to personal website-->
+            <section class="mint_main_box_upload_boxType1">
                 <label for="nftLink">EXTERNAL LINK</label>
                 <input type="text" name="flink" id="nftLink" value="External Link">
                 <p>Horizons will provide users a url to your NFT to gain more 
                 information. You are welcomed to link your webpage/website.</p>
-            </div>
-
-            <div class="mint_main_box_upload_boxType2">
+            </section>
+            <!--Description container-->
+            <section class="mint_main_box_upload_boxType2">
                 <label for="nftDescription">DESCRIPTION</label>
                 <textarea name="description" id="nftDescription" cols="100" 
                 rows="20">Describe your NFT</textarea>
                 <p>The description will be included in your NFTs detail page.</p>
-            </div>
-
+            </section>
             <!--Stats section that includes setting royalties, size and properties-->
-            <div class="mint_main_box_upload_stats">
-                <div class="mint_main_box_upload_stats_box">
+            <section class="mint_main_box_upload_stats">
+                <section class="mint_main_box_upload_stats_box">
                     <label for="royalties">ROYALTIES</label>
                     <input type="text" name="royalties" id="royalties" value="Royalties">
-                </div>
-
-                <div class="mint_main_box_upload_stats_box">
-                    <label for="royalties">SIZE</label>
-                    <input type="text" name="size" id="size" value="Size">
-                </div>
-
-                <div class="mint_main_box_upload_stats_box">
+                </section>
+            <!--</section>-->
+            <!--Collection and nft mint size section-->
+            <section class="mint_main_box_upload_stats_box">
+                <label for="royalties">SIZE</label>
+                <input type="text" name="size" id="size" value="Size">
+            </section>
+            <!--Nft properties section to descript Nft-->
+            <section class="mint_main_box_upload_stats_box">
+                <div>
                     <label for="royalties">PROPERTIES</label>
                     <input type="text" name="properties" id="properties" value="Properties">
                 </div>
-            </div>
-
+            </section>
+        </section>
             <!--Collection Picking section of minting page-->
-            <div class="mint_main_box_collection_pick">
-                <div class="mint_main_box_collection_pick_heading">
+            <section class="mint_main_box_collection_pick">
+                <header class="mint_main_box_collection_pick_heading">
                     <h3>COLLECTION</h3>
                     <P>You can pick a collection to add your NFT to or create a new one.</P>
-                </div>
-                <div class="mint_main_box_collection_pick_box">
-
-                    <div class="mint_main_collection_pick_box_box" id="option">
-                        <img src="https://images4.alphacoders.com/130/1303494.jpeg" 
-                        alt="chempunkKidsCollection" class="">
-                        <h4>ChemPunk Kids</h4>
-                    </div>
-
-                    <div class="mint_main_collection_pick_box_box" id="option">
-                        <img src="https://images4.alphacoders.com/130/1303494.jpeg" 
-                        alt="chempunkKidsCollection" class="">
-                        <h4>ChemPunk Kids</h4>
-                    </div>
-
-                    <div class="mint_main_collection_pick_box_box" id="option">
-                        <img src="https://images4.alphacoders.com/130/1303494.jpeg" 
-                        alt="chempunkKidsCollection" class="">
-                        <h4>ChemPunk Kids</h4>
-                    </div>
-
-                    <div class="mint_main_collection_pick_box_box" id="option">
-                        <img src="https://images4.alphacoders.com/130/1303494.jpeg" 
-                        alt="chempunkKidsCollection" class="">
-                        <h4>ChemPunk Kids</h4>
-                    </div>
-
-                </div>
-            </div>
-
-            <!--Upload button and Preview button-->
-            <div class="mint_main_box_upload_buttons">
-                <button>UPLOAD NFT</button>
-                <button>PREVIEW</button>
-            </div>
-
+                </header>
+            </section>
+            <!--Collection selection section for inputing minted nft(s)-->
+            <section class="mint_main_box_collection_pick_box">
+                <!--Collection choice 1-->
+                <figure class="mint_main_collection_pick_box_box" id="option">
+                    <img src="https://images4.alphacoders.com/130/1303494.jpeg" 
+                    alt="chempunkKidsCollection" class="">
+                    <h4>ChemPunk Kids</h4>
+                </figure>
+                <!--Collection choice 2-->
+                <figure class="mint_main_collection_pick_box_box" id="option">
+                    <img src="https://images4.alphacoders.com/130/1303494.jpeg" 
+                    alt="chempunkKidsCollection" class="">
+                    <h4>ChemPunk Kids</h4>
+                </figure>
+                <!--Collection choice 3-->
+                <figure class="mint_main_collection_pick_box_box" id="option">
+                    <img src="https://images4.alphacoders.com/130/1303494.jpeg" 
+                    alt="chempunkKidsCollection" class="">
+                    <h4>ChemPunk Kids</h4>
+                </figure>
+                <!--Collection choice 4-->
+                <figure class="mint_main_collection_pick_box_box" id="option">
+                    <img src="https://images4.alphacoders.com/130/1303494.jpeg" 
+                    alt="chempunkKidsCollection" class="">
+                    <h4>ChemPunk Kids</h4>
+                </figure>
+            </section>
+        </div>
+        <!--Upload button and Preview button-->
+        <section class="mint_main_box_upload_buttons">
+            <button>UPLOAD NFT</button>
+            <button>PREVIEW</button>
+        </section>
         </div>
     </section>
 
